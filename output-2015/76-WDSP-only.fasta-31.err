@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5A2T0|NSA1_CANAL Ribosome biogenesis protein NSA1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) GN=NSA1 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

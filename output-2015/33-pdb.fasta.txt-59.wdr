@@ -1,0 +1,50 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = 3DW8_A_PDBID_CHAIN_SEQUENCE (Len=582)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-582   Z-score =  0.69  Score = 143.32  P-value = 0.51878  Identities = 17.5%  SS-score = -21.91
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MSLYPIAVLIDELRNEDVQLRLNSIKKLSTIALALGVERTRSELLPFLTDTIYDEDEVLLALAEQLGTFTTLVGGPEYVH 80  
+Query SS       CCCCHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHCCCCHHHH
+WD40-rpts                                                                                      
+
+Query       81 CLLPPLESLATVEETVVRDKAVESLRAISHEHSPSDLEAHFVPLVKRLAGGDWFTSRTSACGLFSVCYPRVSSAVKAELR 160 
+Query SS       HHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHCCCCCHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      161 QYFRNLCSDDTPMVRRAAASKLGEFAKVLELDNVKSEIIPMFSNLASDEQDSVRLLAVEACVNIAQLLPQEDLEALVMPT 240 
+Query SS       HHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHCCCCHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      241 LRQAAEDKSWRVRYMVADKFTELQKAVGPEITKTDLVPAFQNLMKDCEAEVRAAASHKVKEFCENLSADCRENVIMSQIL 320 
+Query SS       HHHHHCCCCHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      321 PCIKELVSDANQHVKSALASVIMGLSPILGKDNTIEHLLPLFLAQLKDECPEVRLNIISNLDCVNEVIGIRQLSQSLLPA 400 
+Query SS       HHHHHHHCCCCHHHHHHHHHHHHHHCHHHCHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHCHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      401 IVELAEDAKWRVRLAIIEYMPLLAGQLGVEFFDEKLNSLCMAWLVDHVYAIREAATSNLKKLVEKFGKEWAHATIIPKVL 480 
+Query SS       HHHHHCCCCHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      481 AMSGDPNYLHRMTTLFCINVLSEVCGQDITTKHMLPTVLRMAGDPVANVRFNVAKSLQKIGPILDNSTLQSEVKPILEKL 560 
+Query SS       HHHCCCCHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      561 TQDQDVDVKYFAQEALTVLSLA 582 
+Query SS       HCCCCHHHHHHHHHHHHHHHCC
+WD40-rpts                            
+
+
+No WD40-repeats found in QUERY=3DW8_A_PDBID_CHAIN_SEQUENCE (Len=582)!

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9D2D9|KLD8B_MOUSE Kelch domain-containing protein 8B OS=Mus musculus GN=Klhdc8b PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

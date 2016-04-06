@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q91W96|APC4_MOUSE Anaphase-promoting complex subunit 4 OS=Mus musculus GN=Anapc4 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

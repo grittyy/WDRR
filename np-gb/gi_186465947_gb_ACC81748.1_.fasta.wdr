@@ -1,0 +1,59 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186465947_gb_ACC81748.1_ (Len=303)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   19-54    Z-score = -0.25  Score = 104.34  P-value = 0.91402  Identities = 17.5%  SS-score = 11.70
+>Seg  2   26-64    Z-score =  0.41  Score = 131.68  P-value = 0.65005  Identities = 12.5%  SS-score = -1.83
+>Seg  3   32-78    Z-score =  0.01  Score = 115.24  P-value = 0.82613  Identities = 10.0%  SS-score =  3.91
+>Seg  4   39-90    Z-score =  1.11  Score = 160.59  P-value = 0.34811  Identities = 10.0%  SS-score = 15.24
+>Seg  5   55-104   Z-score =  0.19  Score = 122.44  P-value = 0.75313  Identities = 20.0%  SS-score = 31.48
+>Seg  6   63-117   Z-score =  1.92  Score = 193.79  P-value = 0.14155  Identities = 20.0%  SS-score = 32.64
+>Seg  7   75-123   Z-score =  0.53  Score = 136.76  P-value = 0.59212  Identities =  5.0%  SS-score = -1.24
+>Seg  8   86-164   Z-score =  0.32  Score = 127.99  P-value = 0.69189  Identities = 10.0%  SS-score = -8.73
+>Seg  9  105-174   Z-score =  0.71  Score = 143.99  P-value = 0.51147  Identities = 10.0%  SS-score = -4.13
+>Seg 10  110-181   Z-score =  0.72  Score = 144.59  P-value = 0.50496  Identities = 17.5%  SS-score = -7.63
+>Seg 11  122-213   Z-score =  0.04  Score = 116.49  P-value = 0.81408  Identities = 15.0%  SS-score = -5.28
+>Seg 12  129-237   Z-score = -0.82  Score =  80.89  P-value = 0.99379  Identities =  5.0%  SS-score =  5.84
+>Seg 13  170-255   Z-score =  1.95  Score = 195.28  P-value = 0.13560  Identities = 20.0%  SS-score =  7.41
+>Seg 14  195-286   Z-score =  3.08  Score = 241.86  P-value = 0.03374  Identities = 17.5%  SS-score =  1.18
+>Seg 15  220-303   Z-score =  0.53  Score = 136.36  P-value = 0.59665  Identities = 12.5%  SS-score = -11.18
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MSSLVALSNSLADTVEQAGSAVVAVNGGTRVSPSGIHWRNGIIVTSDESLQRYDDITITLSNGSTVPVTLVGHDSSTDIA 80  
+Query SS       CCCHHHHHHHHHHHHHHHCCCEEEECCCEEECCCEEEECCCEEECCCCCCCCCCEEEEEECCCCEEEEEEECCCCCCCEE
+WD40-rpts                                                                                      
+
+Query       81 VFKLENVEIPVAKIGDAKTLKVGHLVLGLSRGSEGDLRAAMGAVSVVSGAWRSMNGGNIDQFIRPDITLYSGFAGGPLVD 160 
+Query SS       EEEEECCCCCEEECCCCCCCCCCCEEEEECCCCCCCCEEEECCEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      161 AAGFVVGMNTSGRRGTALTIPTATVDRVVDQLVAKGRISKGYLGVGMQPVRLPKNLKTALNLTSATGVIVVNVESSGPAD 240 
+Query SS       CCCCEEEEECCCCCEEEECCCHHHHHHHHHHHHHCCEEEEEEEEEEEEECCCCHHHHHHCCCCCCCEEEEEEECCCCHHH
+WD40-rpts                                        (________________________WD 1_________________
+
+Query      241 NAGVLLGDILVTFDGVTVGDTGDVLALLNSSDRIGKTVNLQVIRGGVLIELAIAVGERPTKEE 303 
+Query SS       HCCCCCCCEEEEECCEECCCHHHHHHHHHCCCCCCCEEEEEEEECCEEEEEEEEECCCCCCCC
+WD40-rpts      _______)                                                       
+
+
+1 WD40-repeats found in QUERY=gi_186465947_gb_ACC81748.1_ (Len=303):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg 14   195-248      3.08  241.86  0.03374       17.5%      1.18
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  195-248    KGRISKGYLGVGMQPVRLPKNLKTALNLTSATGVIVVNVESSGPADNAGVLLGD
+
+   WD40 Template    TGECLRTLSGHTSGVTSVS---------FSPDGKRLVSGSEDG-----TIKVWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEE---------ECCCCCEEEEEECCC-----CEEEEE
+
+   SS 1  195-248    CCEEEEEEEEEEEEECCCCHHHHHHCCCCCCCEEEEEEECCCCHHHHCCCCCCC

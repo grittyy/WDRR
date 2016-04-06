@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9LUP1|FBK61_ARATH Putative F-box/kelch-repeat protein At3g17570 OS=Arabidopsis thaliana GN=At3g17570 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

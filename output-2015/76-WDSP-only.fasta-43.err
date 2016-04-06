@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q69ZK5|KLH14_MOUSE Kelch-like protein 14 OS=Mus musculus GN=Klhl14 PE=1 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

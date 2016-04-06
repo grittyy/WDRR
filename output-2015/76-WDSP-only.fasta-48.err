@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q6INI5|NOL11_XENLA Nucleolar protein 11 OS=Xenopus laevis GN=nol11 PE=2 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9P6N4|PEP5_SCHPO E3 ubiquitin-protein ligase pep5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=vps11 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

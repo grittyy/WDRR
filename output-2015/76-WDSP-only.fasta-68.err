@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens GN=VPS11 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

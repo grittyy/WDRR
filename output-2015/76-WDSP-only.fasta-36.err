@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5KU39|VPS41_MOUSE Vacuolar protein sorting-associated protein 41 homolog OS=Mus musculus GN=Vps41 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

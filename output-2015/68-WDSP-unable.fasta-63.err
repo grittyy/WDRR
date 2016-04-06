@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9RDE2|TRI1_STRCO Tricorn protease homolog 1 OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) GN=tri1 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

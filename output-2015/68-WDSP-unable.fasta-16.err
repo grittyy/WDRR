@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|P34441|EMB30_CAEEL Abnormal embryogenesis protein 30 OS=Caenorhabditis elegans GN=emb-30 PE=1 SV=4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

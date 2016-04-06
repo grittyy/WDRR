@@ -1,0 +1,64 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186465418_gb_ACC81219.1_ (Len=349)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-100   Z-score = -0.75  Score =  83.69  P-value = 0.99052  Identities = 12.5%  SS-score = -0.39
+>Seg  2   44-111   Z-score = -0.78  Score =  82.51  P-value = 0.99204  Identities = 10.0%  SS-score =  4.43
+>Seg  3   64-146   Z-score =  0.29  Score = 126.71  P-value = 0.70623  Identities =  5.0%  SS-score = 18.39
+>Seg  4   76-155   Z-score =  0.19  Score = 122.64  P-value = 0.75099  Identities = 10.0%  SS-score = -4.71
+>Seg  5   88-179   Z-score =  0.31  Score = 127.58  P-value = 0.69655  Identities =  7.5%  SS-score = 11.89
+>Seg  6  119-189   Z-score =  0.00  Score = 114.86  P-value = 0.82969  Identities =  2.5%  SS-score =  0.68
+>Seg  7  134-228   Z-score = -0.01  Score = 114.33  P-value = 0.83456  Identities = 10.0%  SS-score =  7.20
+>Seg  8  156-234   Z-score =  0.74  Score = 145.12  P-value = 0.49927  Identities = 10.0%  SS-score = 11.55
+>Seg  9  167-244   Z-score =  0.54  Score = 137.06  P-value = 0.58867  Identities = 17.5%  SS-score =  9.13
+>Seg 10  183-250   Z-score = -0.48  Score =  94.79  P-value = 0.96313  Identities =  7.5%  SS-score = 10.05
+>Seg 11  202-262   Z-score = -0.75  Score =  83.77  P-value = 0.99041  Identities =  5.0%  SS-score = -8.19
+>Seg 12  232-276   Z-score =  1.07  Score = 158.82  P-value = 0.36366  Identities = 10.0%  SS-score = -3.90
+>Seg 13  239-288   Z-score =  2.84  Score = 231.81  P-value = 0.04580  Identities = 17.5%  SS-score = 28.58
+>Seg 14  248-302   Z-score =  1.02  Score = 156.87  P-value = 0.38136  Identities = 17.5%  SS-score = 27.85
+>Seg 15  259-327   Z-score =  0.57  Score = 138.09  P-value = 0.57706  Identities = 12.5%  SS-score =  3.59
+>Seg 16  272-349   Z-score =  0.13  Score = 120.10  P-value = 0.77786  Identities = 10.0%  SS-score = -1.62
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MNEFDQSLEDQSMNYVGMIAKFPLGVHDLKSFITPENHLFVLCHLGIPDIDIEQWRLKISGLVEQSLELSYQNLLSLEYR 80  
+Query SS       CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEECCCCCCCCCCCCEEEEEEEECCCEEEEHHHHHCCCCE
+WD40-rpts                                                                                      
+
+Query       81 ELTIFHQCSGNPLEPKVPTRTISNVTWGGVSLREILNQLQVKPEARYVWFAGTDRGAYEGVSSDSYIKDIPIAKALDNDV 160 
+Query SS       EEEEEEECCCCCCCCCCCCCEEEEEEEECCCHHHHHHHCCCCCCCCEEEEEEECCCCCCCCCCCCCEEEEEHHHHCCCCE
+WD40-rpts                                                                                      
+
+Query      161 LLAYKLNGEFLSAERGFPLRLVVPGYYGTNFVKWLSHIYVTDRRSPGPFTTTFYNDRVGGDDATLKPVWEVAPESVIVHP 240 
+Query SS       EEEEEECCCCCCCCCCCCCEEECCCCCCCEEEEEEEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCEEECCCEEEECC
+WD40-rpts                                                                                    (_
+
+Query      241 SQNELLYLQPQTFSGWAWASKGIQSVDVSTDGGITWQAVEVEARLQYAWQRFTFQWTPPTPGQYSLMSRATDYDGAIQPI 320 
+Query SS       CCCCEEECCCEEEEEEEECCCCEEEEEEECCCCCCCEEEEECCCCCCCEEEEEEEEECCCCCEEEEEEEEEECCCCCCCC
+WD40-rpts      ________________WD 1_________________)                                          
+
+Query      321 QQERNAVYIVAVTVKETTVKESKPFTVAE 349 
+Query SS       CCCCCCCEEEEEEEEEEEEEEECCCCCCC
+WD40-rpts                                   
+
+
+1 WD40-repeats found in QUERY=gi_186465418_gb_ACC81219.1_ (Len=349):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg 13   239-278      2.84  231.81  0.04580       17.5%     28.58
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  239-278    HPSQNELLYLQPQTFSGWAWASKGIQSVDVSTDGGITWQA
+
+   WD40 Template    TGECLRTLSGHTSGVTSVSFSPDGKRLVSGSEDGTIKVWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEEECCCCCEEEEEECCCCEEEEE
+
+   SS 1  239-278    CCCCCCEEECCCEEEEEEEECCCCEEEEEEECCCCCCCEE

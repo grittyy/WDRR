@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5E769|BAMB_VIBF1 Outer membrane protein assembly factor BamB OS=Vibrio fischeri (strain ATCC 700601 / ES114) GN=bamB PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

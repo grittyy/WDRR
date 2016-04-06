@@ -1,0 +1,46 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186468282_gb_ACC84083.1_ (Len=99)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-41    Z-score =  1.07  Score = 158.96  P-value = 0.36245  Identities = 32.5%  SS-score = 31.62
+>Seg  2    5-51    Z-score =  5.79  Score = 353.69  P-value = 0.00106  Identities = 42.5%  SS-score = 46.55
+>Seg  3   15-61    Z-score = 10.45  Score = 546.24  P-value = 2.7e-06  Identities = 47.5%  SS-score = 55.15
+>Seg  4   24-71    Z-score =  8.62  Score = 470.93  P-value = 2.8e-05  Identities = 40.0%  SS-score = 46.53
+>Seg  5   42-82    Z-score =  0.77  Score = 146.28  P-value = 0.48688  Identities = 17.5%  SS-score = 21.82
+>Seg  6   52-92    Z-score =  4.14  Score = 285.63  P-value = 0.00878  Identities = 35.0%  SS-score = 43.99
+>Seg  7   57-99    Z-score =  8.60  Score = 470.01  P-value = 2.9e-05  Identities = 42.5%  SS-score = 53.66
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MASSSLDDTIKVWSVTTGREIRTLSGHSNEVKYVAISSDGQILASHTWDKTIKLWEVATGREICTLSLFDPAHSVAFSPD 80  
+Query SS       CEEECCCCCEEEEECCCCCEEEECCCCCCCEEEEEECCCCCEEEEEECCCCEEEEECCCCCEEEECCCCCCEEEEEECCC
+WD40-rpts                       (_________________WD 1________________)   (________________WD 2
+
+Query       81 GSWLAAGDVSGNIKIWRRS 99  
+Query SS       CCEEEEECCCCCEEEEECC
+WD40-rpts      ________________)  
+
+
+2 WD40-repeats found in QUERY=gi_186468282_gb_ACC84083.1_ (Len=99):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  3    18-56      10.45  546.24  2.7e-06       47.5%     55.15
+  WD 2:  Seg  7    60-97       8.60  470.01  2.9e-05       42.5%     53.66
+
+Multiple sequence alignment of 2 WD40-repeats:
+
+   WD 1   18-56     GREIRTLSGHSNEVKYVAISSDGQILASHTWDKTIKLWE
+   WD 2   60-97     GREICTLSLF-DPAHSVAFSPDGSWLAAGDVSGNIKIWR
+
+   WD40 Template    GECLRTLSGHTSGVTSVSFSPDGKRLVSGSEDGTIKVWD
+        Tmplt-SS    CEEEEEECCCCCCEEEEEECCCCCEEEEEECCCCEEEEE
+
+   SS 1   18-56     CCEEEECCCCCCCEEEEEECCCCCEEEEEECCCCEEEEE
+   SS 2   60-97     CCEEEECCCC-CCEEEEEECCCCCEEEEECCCCCEEEEE

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|P34569|KEL10_CAEEL Kelch repeat-containing protein kel-10 OS=Caenorhabditis elegans GN=kel-10 PE=3 SV=4: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

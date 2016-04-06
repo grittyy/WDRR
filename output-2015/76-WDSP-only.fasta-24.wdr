@@ -1,0 +1,76 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = sp_Q13939_CALI_HUMAN (Len=588)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-78    Z-score =  0.08  Score = 118.06  P-value = 0.79858  Identities = 15.0%  SS-score =  9.50
+>Seg  2   24-97    Z-score =  0.29  Score = 126.59  P-value = 0.70762  Identities = 12.5%  SS-score = 17.99
+>Seg  3   35-295   Z-score =  0.93  Score = 153.18  P-value = 0.41640  Identities = 22.5%  SS-score =  6.16
+>Seg  4   58-305   Z-score =  1.86  Score = 191.54  P-value = 0.15100  Identities = 20.0%  SS-score =  3.78
+>Seg  5   79-318   Z-score =  0.08  Score = 118.02  P-value = 0.79907  Identities = 10.0%  SS-score = -0.96
+>Seg  6  259-327   Z-score = -0.58  Score =  90.83  P-value = 0.97608  Identities = 15.0%  SS-score =  8.30
+>Seg  7  285-343   Z-score = -0.74  Score =  84.00  P-value = 0.99009  Identities =  5.0%  SS-score = -5.85
+>Seg  8  302-354   Z-score =  0.17  Score = 121.71  P-value = 0.76090  Identities = 22.5%  SS-score = 17.69
+>Seg  9  310-367   Z-score =  1.19  Score = 163.91  P-value = 0.32025  Identities = 10.0%  SS-score = -11.28
+>Seg 10  326-375   Z-score = -1.03  Score =  71.92  P-value = 0.99879  Identities = 12.5%  SS-score = 18.19
+>Seg 11  333-391   Z-score = -0.20  Score = 106.21  P-value = 0.90125  Identities = 10.0%  SS-score = -11.04
+>Seg 12  350-402   Z-score =  0.10  Score = 118.79  P-value = 0.79123  Identities = 10.0%  SS-score = 17.21
+>Seg 13  358-415   Z-score =  1.67  Score = 183.82  P-value = 0.18783  Identities = 15.0%  SS-score =  0.25
+>Seg 14  374-424   Z-score = -0.71  Score =  85.23  P-value = 0.98821  Identities = 10.0%  SS-score = 16.47
+>Seg 15  392-443   Z-score =  0.62  Score = 140.14  P-value = 0.55394  Identities = 10.0%  SS-score =  3.38
+>Seg 16  398-454   Z-score =  0.45  Score = 133.05  P-value = 0.63446  Identities = 15.0%  SS-score = 24.35
+>Seg 17  406-469   Z-score =  0.17  Score = 121.48  P-value = 0.76331  Identities = 12.5%  SS-score = 10.07
+>Seg 18  422-476   Z-score = -0.00  Score = 114.65  P-value = 0.83163  Identities = 10.0%  SS-score =  0.37
+>Seg 19  432-488   Z-score = -0.63  Score =  88.79  P-value = 0.98125  Identities = 17.5%  SS-score = 14.80
+>Seg 20  450-503   Z-score =  0.22  Score = 123.69  P-value = 0.73965  Identities =  7.5%  SS-score = 34.64
+>Seg 21  458-515   Z-score = -0.08  Score = 111.31  P-value = 0.86138  Identities =  5.0%  SS-score = 23.06
+>Seg 22  475-525   Z-score = -0.73  Score =  84.56  P-value = 0.98926  Identities = 15.0%  SS-score = 10.24
+>Seg 23  484-540   Z-score = -0.93  Score =  76.10  P-value = 0.99725  Identities = 12.5%  SS-score = 27.13
+>Seg 24  499-549   Z-score =  0.68  Score = 142.94  P-value = 0.52299  Identities = 15.0%  SS-score = 25.94
+>Seg 25  507-559   Z-score =  0.61  Score = 139.96  P-value = 0.55595  Identities = 15.0%  SS-score =  4.18
+>Seg 26  524-573   Z-score =  0.14  Score = 120.61  P-value = 0.77254  Identities = 10.0%  SS-score =  5.43
+>Seg 27  532-581   Z-score = -0.46  Score =  95.71  P-value = 0.95954  Identities = 10.0%  SS-score = -13.77
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MKLEFTEKNYNSFVLQNLNRQRKRKEYWDMALSVDNHVFFAHRNVLAAVSPLVRSLISSNDMKTADELFITIDTSYLSPV 80  
+Query SS       CCEEEECCCHHHHHHHHHHHHHHCCCCEEEEEEECCEEEEEEHHHHHCCCHHHHHHHCCCCCCCCCCCEEEEECCCCCHH
+WD40-rpts                                                                                      
+
+Query       81 TVDQLLDYFYSGKVVISEQNVEELLRGAQYFNTPRLRVHCNDFLIKSICRANCLRYLFLAELFELKEVSDVAYSGIRDNF 160 
+Query SS       HHHHHHHEEEEEEEEECHHHHHHHHHHCCCCCCHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      161 HYWASPEGSMHFMRCPPVIFGRLLRDENLHVLNEDQALSALINWVYFRKEDREKYFKKFFNYINLNAVSNKTLVFASNKL 240 
+Query SS       HHHCCCCCCCCCCCCCHHHHCCCCCCCCCCCCCHHHHHHHHHHHHHCCHHHHHHHHHHHHCCCCCCCCCHHHHHHHCCCC
+WD40-rpts                                                                                      
+
+Query      241 VGMENTSSHTTLIESVLMDRKQERPCSLLVYQRKGALLDSVVILGGQKAHGQFNDGVFAYIIQENLWMKLSDMPYRAAAL 320 
+Query SS       CCCCCCCCHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCEEEEEECCCCCCCCCCCEEEEEECCCCEEEECCCCCCCCCEE
+WD40-rpts                                                                                      
+
+Query      321 SATSAGRYIYISGGTTEQISGLKTAWRYDMDDNSWTKLPDLPIGLVFHTMVTCGGTVYSVGGSIAPRRYVSNIYRYDERK 400 
+Query SS       EEEEECCEEEEECCCCCCCCCCCEEEEEECCCCCEEECCCCCCCCCCEEEEEECCEEEEECCCCCCCCCCCEEEEEECCC
+WD40-rpts                                                                                      
+
+Query      401 EVWCLAGKMSIPMDGTAVITKGDRHLYIVTGRCLVKGYISRVGVVDCFDTSTGDVVQCITFPIEFNHRPLLSFQQDNILC 480 
+Query SS       CCEEECCCCCCCCCCEEEEEECCCEEEEECCCCCCCCCCCCCCEEEEEECCCCCEEECCCCCCCCCCCCEEEEECCEEEE
+WD40-rpts                                                                                      
+
+Query      481 VHSHRQSVEINLQKVKASKTTTSVPVLPNSCPLDVSHAICSIGDSKVFVCGGVTTASDVQTKDYTINPNAFLLDQKTGKW 560 
+Query SS       EECCCCCCEEEEEEEEEECCCCCEEECCCCCCCCCEEEEEEEECCEEEEEECCCCCCCCCEEECCCCCCEEEEECCCCCE
+WD40-rpts                                                                                      
+
+Query      561 KTLAPPPEALDCPACCLAKLPCKILQRI 588 
+Query SS       EECCCCCCCCCCCEEEEECCCHHHHHCC
+WD40-rpts                                  
+
+
+No WD40-repeats found in QUERY=sp_Q13939_CALI_HUMAN (Len=588)!

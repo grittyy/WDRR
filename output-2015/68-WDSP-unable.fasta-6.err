@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|A8WX15|EIF3B_CAEBR Eukaryotic translation initiation factor 3 subunit B OS=Caenorhabditis briggsae GN=eif-3.B PE=3 SV=3: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

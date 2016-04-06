@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|P59438|HPS5_MOUSE Hermansky-Pudlak syndrome 5 protein homolog OS=Mus musculus GN=Hps5 PE=1 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9C5Z1|EIF3B_ARATH Eukaryotic translation initiation factor 3 subunit B OS=Arabidopsis thaliana GN=TIF3B1 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

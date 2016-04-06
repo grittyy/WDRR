@@ -1,0 +1,141 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186466460_gb_ACC82261.1_ (Len=1561)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-173   Z-score =  0.26  Score = 125.27  P-value = 0.72230  Identities =  5.0%  SS-score = -3.60
+>Seg  2   96-208   Z-score =  0.69  Score = 143.04  P-value = 0.52192  Identities = 15.0%  SS-score = -17.75
+>Seg  3  134-216   Z-score =  0.67  Score = 142.26  P-value = 0.53041  Identities =  7.5%  SS-score = 29.81
+>Seg  4  158-270   Z-score =  0.52  Score = 136.17  P-value = 0.59879  Identities =  7.5%  SS-score = -4.30
+>Seg  5  194-373   Z-score = -0.41  Score =  97.84  P-value = 0.95034  Identities =  7.5%  SS-score = 12.15
+>Seg  6  203-387   Z-score =  0.26  Score = 125.48  P-value = 0.72001  Identities =  5.0%  SS-score = -15.33
+>Seg  7  226-395   Z-score =  0.08  Score = 117.87  P-value = 0.80047  Identities = 15.0%  SS-score =  1.70
+>Seg  8  355-423   Z-score =  0.01  Score = 114.89  P-value = 0.82936  Identities = 12.5%  SS-score = 28.29
+>Seg  9  371-436   Z-score =  2.32  Score = 210.48  P-value = 0.08690  Identities = 12.5%  SS-score = 28.86
+>Seg 10  380-589   Z-score = -0.18  Score = 107.34  P-value = 0.89308  Identities = 15.0%  SS-score = 12.19
+>Seg 11  394-598   Z-score = -0.19  Score = 106.88  P-value = 0.89645  Identities =  2.5%  SS-score = 21.53
+>Seg 12  411-624   Z-score = -1.01  Score =  72.75  P-value = 0.99856  Identities = 15.0%  SS-score = -4.67
+>Seg 13  564-668   Z-score = -0.53  Score =  92.66  P-value = 0.97058  Identities = 12.5%  SS-score =  1.01
+>Seg 14  574-700   Z-score =  0.14  Score = 120.60  P-value = 0.77259  Identities = 10.0%  SS-score =  3.66
+>Seg 15  608-850   Z-score =  0.72  Score = 144.52  P-value = 0.50573  Identities = 20.0%  SS-score = -0.57
+>Seg 16  645-923   Z-score =  1.64  Score = 182.59  P-value = 0.19436  Identities = 15.0%  SS-score =  1.22
+>Seg 17  683-1027  Z-score =  0.93  Score = 153.19  P-value = 0.41634  Identities = 22.5%  SS-score =  4.16
+>Seg 18  823-1082  Z-score =  0.03  Score = 115.95  P-value = 0.81935  Identities = 10.0%  SS-score =  5.54
+>Seg 19  909-1111  Z-score = -0.20  Score = 106.29  P-value = 0.90071  Identities = 15.0%  SS-score = -3.52
+>Seg 20  989-1152  Z-score =  1.43  Score = 173.79  P-value = 0.24722  Identities = 15.0%  SS-score = -2.74
+>Seg 21 1068-1320  Z-score =  1.89  Score = 192.63  P-value = 0.14635  Identities = 20.0%  SS-score =  7.60
+>Seg 22 1093-1363  Z-score =  3.52  Score = 260.10  P-value = 0.01929  Identities = 25.0%  SS-score = 14.90
+>Seg 23 1136-1382  Z-score =  1.02  Score = 156.86  P-value = 0.38146  Identities = 15.0%  SS-score = -1.66
+>Seg 24 1305-1399  Z-score =  0.74  Score = 145.24  P-value = 0.49800  Identities =  7.5%  SS-score = 10.91
+>Seg 25 1335-1404  Z-score = -0.23  Score = 105.11  P-value = 0.90892  Identities = 10.0%  SS-score = 25.27
+>Seg 26 1350-1414  Z-score =  0.12  Score = 119.56  P-value = 0.78338  Identities = 10.0%  SS-score = 26.04
+>Seg 27 1370-1425  Z-score = -0.31  Score = 101.70  P-value = 0.93028  Identities = 10.0%  SS-score = 15.68
+>Seg 28 1388-1432  Z-score =  0.64  Score = 140.98  P-value = 0.54459  Identities = 12.5%  SS-score = 14.06
+>Seg 29 1403-1450  Z-score =  0.59  Score = 139.08  P-value = 0.56587  Identities = 15.0%  SS-score = 18.49
+>Seg 30 1409-1469  Z-score =  1.10  Score = 160.15  P-value = 0.35194  Identities = 10.0%  SS-score = 20.94
+>Seg 31 1420-1479  Z-score =  0.47  Score = 134.13  P-value = 0.62202  Identities = 20.0%  SS-score = 28.22
+>Seg 32 1430-1496  Z-score =  1.35  Score = 170.51  P-value = 0.26983  Identities = 15.0%  SS-score = 35.52
+>Seg 33 1449-1561  Z-score =  1.31  Score = 168.75  P-value = 0.28260  Identities = 20.0%  SS-score = 21.77
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MNNQPMNQEQKITANINSRDTYQGQKWLVEERDACGVGFIAHRQNHTSHEIVEKALAALTCLEHRGGCSADRDSGDGAGV 80  
+Query SS       CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEEEECCCCCHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCEE
+WD40-rpts                                                                                      
+
+Query       81 LTAIPWDLFQQDFAQRGKEFPSTNNIAVGMIFLPQDQEAAQKARAAVEQVATEEKLIVLGWRVVPVQSDLLGVQARENQP 160 
+Query SS       CCCCCHHHHHHHHHHCCCCCCCCCCEEEEEEECCCCHHHHHHHHHHHHHHHHHCCCEEEEEECCCCCCCCCCHHHHHCCC
+WD40-rpts                                                                                      
+
+Query      161 QIEQVLLASVDKSSDELERQLYITRRRISKVATNISEEFYICSLSSRTIVYKGMVRSAVLGEFYQDLKNPVYKSAFAVYH 240 
+Query SS       CEEEEEEECCCCCHHHHHHHHHHHHHHHHHHHHCCCCCEEEECCCCCCEEEECCCCHHHHHHHHHCCCCCCCEEEEEEEE
+WD40-rpts                                                                                      
+
+Query      241 RRFSTNTMPKWPLAQPMRLLGHNGEINTLLGNINWMMAREASLNHPVWGDRIKELKPLVHIDNSDSATLDNVLELLVCSG 320 
+Query SS       CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHCC
+WD40-rpts                                                                                      
+
+Query      321 RTPLEALMIMVPEAYQNQPSLHESPEIVDFYEYYSGLQEAWDGPALLVFSDGKKVGATLDRNGLRPARYLITKDDYIVVA 400 
+Query SS       CCHHHHHHHCCCCCCCCCCCCCCCHHHHHHHHHHCCCCCCCCCCCEEEEECCCEEEEEECCCCCCCCEEEEEECCEEEEE
+WD40-rpts                                                                                      
+
+Query      401 SEAGVVDFPEADIVEKGRLGPGQMIAVDLVNHEVLKNWEIKQRIAKQHPYGEWLQQYRQELKSLVISHPSLVNGNGKGQM 480 
+Query SS       ECCCCCCCCCCCCCCCCCCCCCCEEEEECCCCCCCCHHHHHHHHHHCCCHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      481 TNDSGQLTIDKQTLLQLQTAFGYTTEDVEMVIQPMAIAGSEPTFCMGDDIPLAVLSTKSHLLYDYFKQRFAQVTNPAIDP 560 
+Query SS       CCCCCCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHCCCCCCCCCCCH
+WD40-rpts                                                                                      
+
+Query      561 LREKLVMSLKVELGERGNLLEPKPEYARRLKLESPVLTDGELEAIKLSGFATAELSTLFAIANGPEGLKAAVESLQAQAA 640 
+Query SS       HHHCCCEEEEEEECCCCCCCCCCCCCCCCEEECCCCCCHHHHHHHHHCCCCEEEEEECCCCCCCHHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      641 ESVRAGAKILILSDKENDGITTEYTYIPPLLAVGAVHHHLIREGLRMKTSLIVNTAQCWSTHHFACLIGYGAGAVCPYMA 720 
+Query SS       HHHHCCCCEEEECCCCCCCCCCCCCCCCHHHHHHHHHHHHHHCCCCCCEEEEEECCCCCCHHHHHHHHHCCCCCCCHHHH
+WD40-rpts                                                                                      
+
+Query      721 LDTVRDWCIDPRTQKLMGVQKIPTLTVEQALGNYRKAVESGLLKILSKMGISLLSSYQAAQIFEAIGIGKDLIELGFRGT 800 
+Query SS       HHHHHHHHCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHCCCHHHCCCCCCHHHHHCCCCHHHHHHCCCCC
+WD40-rpts                                                                                      
+
+Query      801 TSRIGGLSVSELADEVLSFHVKAFPELTTKKLENLGFVQYRPGGEYHMNSPEMVKALHKALDGKNYDHYEVYKKHLQGRP 880 
+Query SS       CCCCCCCCHHHHHHHHHHHHHHCCCCCCCCCCCCCCCEEECCCCCCCCCCHHHHHHHHHHHHCCCHHHHHHHHHHHCCCC
+WD40-rpts                                                                                      
+
+Query      881 VTALRDLLDFQGERTPISIEEVESVAEIVKRFCTGGMSLGALSREAHETLAIAMNRIGGKSNSGEGGEDPVRYKVLDDVD 960 
+Query SS       CCCCCCCCCCCCCCCCCCCCCCCCHHHHCCCEEECCCCCCCCCHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      961 ESGNSPTLPHLKGLRNGDKAFSAIKQVASGRFGVTPEYLVNAKQIEIKIAQGAKPGEGGQLPGPKVSQYIAMLRRSKPGV 1040
+Query SS       CCCCCCCCCCCCCCCCCCCCCCHHHHHHCCCCCCCCCCCCCCCEEEEECCCCCCCCCCCCCCCCCCCHHHHHHCCCCCCC
+WD40-rpts                                                                                      
+
+Query     1041 TLISPPPHHDIYSIEDLAQLIFDLHQINPKAKVSVKLVSEVGIGTIAAGVAKANADIIQVSGHDGGTGASPLSSIKHAGS 1120
+Query SS       CCCCCCCCCCCCCHHHHHHHHHHHHHHCCCCCEEEEEECCCCHHHHHHHHHHCCCCEEEECCCCCCCCCCCHHHHHHCCC
+WD40-rpts                                                          (___________________________
+
+Query     1121 PWELGLSEVHRVLMENSLRDRVILRVDGGLKSGWDVVIGALMGAEEFGFGSIAMIAEGCIMARICHTNNCPVGVASQKEE 1200
+Query SS       CHHHHHHHHHHHHHHCCCCCCEEEEECCCCCCHHHHHHHHHCCCCCHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCHH
+WD40-rpts      _______WD 1_________________________________)                                   
+
+Query     1201 LRKRFTGIPEQVVNFFYFIAEEVRSLLARLGYRSLSEIIGRADLLKLRPEAKLTKTRSLNLDCLLKLPDTRDNRSWLLHE 1280
+Query SS       HHHHCCCCHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHCCCCCCCCCCCHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query     1281 EVHSNGVVLDDKFLADPDIQAAIRDQSSVKKTYPIVNTDRTVGTRLAGAIASQYGDSGFDGQINLKFTGSVGQSFGAFNL 1360
+Query SS       CCCCCCCCCCHHHHCCCHHHHHHHCCCEEEEEEEEECCCCHHHHHHHHHHHHHHCCCCCCCCEEEEEEECCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query     1361 PGISLSLEGEANDYVGKGMHGGEIIIKPPTDATYNASQNVIVGNTCLYGATGGMLFANGQAGERFAVRNSKGIAVIEGAG 1440
+Query SS       CCCEEEEEECCCCCCCCCCCCCEEEEECCCCCCCCCCCCEEECCEEEECCCCCCEEECCCCCCCCEEECCCCEEEEECCC
+WD40-rpts                                                                                      
+
+Query     1441 DHCCEYMTGGVIVVLGKVGRNVAAGMTGGLAYFLDEDDSFRELVNPEIVKIQRVITEVGAKQLQELIQTHAERTGSLKAK 1520
+Query SS       CCCCCCCCCCEEEEECCCCCCCCCCCCCCEEEEECCCCCHHHHCCCCCEEEEECCCHHHHHHHHHHHHHHHHHHCCHHHH
+WD40-rpts                                                                                      
+
+Query     1521 KILQNWQEFLPKFWQLVPPSEADSPEANPEKITELSLVTSH 1561
+Query SS       HHHHHHHHCCCCCEEECCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                               
+
+
+1 WD40-repeats found in QUERY=gi_186466460_gb_ACC82261.1_ (Len=1561):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg 22  1093-1165     3.52  260.10  0.01929       25.0%     14.90
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1 1093-1165   ANADIIQVSGHDGGTGASPLSSIKHAGSPWELGLSEVHRVLMENSLRDRVILRVDGGLKSGWDVVIGALMGAE
+
+   WD40 Template    TGECLRTLSGHTSGVTSVS-------FSP---------------DGKRLVSGSEDGTIKV-----------WD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEE-------ECC---------------CCCEEEEEECCCCEEE-----------EE
+
+   SS 1 1093-1165   CCCCEEEECCCCCCCCCCCHHHHHHCCCCHHHHHHHHHHHHHHCCCCCCEEEEECCCCCCHHHHHHHHHCCCC

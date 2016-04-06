@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|O49316|FB122_ARATH Putative F-box protein At2g33190 OS=Arabidopsis thaliana GN=At2g33190 PE=4 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

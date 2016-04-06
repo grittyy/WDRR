@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q15034|HERC3_HUMAN Probable E3 ubiquitin-protein ligase HERC3 OS=Homo sapiens GN=HERC3 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

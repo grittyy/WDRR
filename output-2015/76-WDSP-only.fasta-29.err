@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q54VW7|GACGG_DICDI Rho GTPase-activating protein gacGG OS=Dictyostelium discoideum GN=gacGG PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

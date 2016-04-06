@@ -1,0 +1,60 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = sp_Q58DS7_PON2_BOVIN (Len=354)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   28-83    Z-score =  0.19  Score = 122.54  P-value = 0.75207  Identities =  7.5%  SS-score = 36.09
+>Seg  2   37-95    Z-score =  0.46  Score = 133.66  P-value = 0.62741  Identities = 12.5%  SS-score = 24.49
+>Seg  3   46-116   Z-score =  0.24  Score = 124.60  P-value = 0.72961  Identities = 17.5%  SS-score = 11.35
+>Seg  4   59-125   Z-score = -0.35  Score = 100.11  P-value = 0.93905  Identities = 12.5%  SS-score = 27.89
+>Seg  5   68-138   Z-score = -0.48  Score =  94.69  P-value = 0.96351  Identities =  7.5%  SS-score = -2.74
+>Seg  6   90-150   Z-score = -0.24  Score = 104.91  P-value = 0.91027  Identities = 20.0%  SS-score = 15.50
+>Seg  7  104-168   Z-score =  0.53  Score = 136.51  P-value = 0.59500  Identities = 17.5%  SS-score = 12.00
+>Seg  8  121-176   Z-score = -0.42  Score =  97.47  P-value = 0.95203  Identities = 17.5%  SS-score =  2.68
+>Seg  9  133-188   Z-score = -0.77  Score =  82.87  P-value = 0.99160  Identities = 17.5%  SS-score = -8.22
+>Seg 10  147-211   Z-score = -0.54  Score =  92.17  P-value = 0.97213  Identities =  7.5%  SS-score = 20.61
+>Seg 11  160-223   Z-score =  0.41  Score = 131.60  P-value = 0.65098  Identities =  5.0%  SS-score = -4.38
+>Seg 12  173-232   Z-score =  0.89  Score = 151.49  P-value = 0.43307  Identities = 17.5%  SS-score = 39.45
+>Seg 13  198-242   Z-score =  1.05  Score = 158.02  P-value = 0.37087  Identities = 12.5%  SS-score = 44.87
+>Seg 14  208-254   Z-score =  2.41  Score = 214.23  P-value = 0.07773  Identities = 17.5%  SS-score = 44.24
+>Seg 15  217-269   Z-score = -0.04  Score = 113.01  P-value = 0.84657  Identities = 20.0%  SS-score = 35.27
+>Seg 16  228-278   Z-score = -0.62  Score =  89.16  P-value = 0.98037  Identities =  0.0%  SS-score =  3.80
+>Seg 17  239-287   Z-score = -0.52  Score =  93.15  P-value = 0.96898  Identities = 12.5%  SS-score = -2.63
+>Seg 18  251-302   Z-score =  0.38  Score = 130.49  P-value = 0.66365  Identities = 17.5%  SS-score = 36.15
+>Seg 19  263-315   Z-score = -0.31  Score = 101.66  P-value = 0.93048  Identities = 20.0%  SS-score = 23.00
+>Seg 20  273-325   Z-score = -0.47  Score =  95.41  P-value = 0.96075  Identities = 15.0%  SS-score =  4.88
+>Seg 21  286-338   Z-score = -0.25  Score = 104.53  P-value = 0.91275  Identities = 12.5%  SS-score = 45.05
+>Seg 22  294-348   Z-score = -0.55  Score =  91.79  P-value = 0.97330  Identities = 15.0%  SS-score = 27.79
+>Seg 23  309-354   Z-score = -0.27  Score = 103.60  P-value = 0.91881  Identities = 17.5%  SS-score = 18.21
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MGRLLALSLLGIALALLGERLLALRNRLKASREVESVDLPNCHLIKGIEAGAEDIDILPNGLAFFSVGLKCPGLHSFAPD 80  
+Query SS       CCHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCEEEECCCCCEEEECCCCCCCCCEEEECCCEEEEEECCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query       81 KPGGILMMDLNEENPRALELRVSRGFNLASFNPHGISTFIDSDDTVYLFVVNHPEFKNTVEIFKFEEEENSLLHLKTIKH 160 
+Query SS       CCCEEEEEECCCCCCEEEEEEEECCCCCCCCCCCCCEEEECCCCCEEEEEEECCCCCCEEEEEEEECCCCEEEEEEEEEC
+WD40-rpts                                                                                      
+
+Query      161 ELLPSVNDIIAVGPEHFYATNDHYFSDPFLKYLETYLNLHWTNVVYYSPNEVKVVAEGFDSANGINISPDKKYIYVADIL 240 
+Query SS       CCCCCCCCEEEECCCCEEEECCCCCCCCHHHHHHHHHCCCCEEEEEECCCCEEEEECCCCCCCEEEECCCCCEEEEEECC
+WD40-rpts                                                                                      
+
+Query      241 AHEIHVLEKHPNMNLTQLKVLKLDTLVDNLSIDPSSGDVLVGCHPNGQKLFVYDPKNPPSSEVLRIQNILSEKPTVTTVY 320 
+Query SS       CCEEEEEEEECCCCEEEEEEEECCCCCCCEEECCCCCCEEEEECCCCEEEEEECCCCCCCCCEEEEEECCCCCCCEEEEE
+WD40-rpts                                                                                      
+
+Query      321 ANNGSVLQGSSVASVYDKKLLIGTLYHRALYCEL 354 
+Query SS       ECCCCEEEEEEEEEEECCEEEEEECCCCEEEEEC
+WD40-rpts                                        
+
+
+No WD40-repeats found in QUERY=sp_Q58DS7_PON2_BOVIN (Len=354)!

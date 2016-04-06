@@ -1,0 +1,41 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186467722_gb_ACC83523.1_ (Len=143)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-69    Z-score =  1.03  Score = 157.39  P-value = 0.37662  Identities = 12.5%  SS-score = 26.57
+>Seg  2   24-86    Z-score =  3.79  Score = 271.32  P-value = 0.01365  Identities = 12.5%  SS-score =  8.91
+>Seg  3   40-96    Z-score =  1.91  Score = 193.70  P-value = 0.14193  Identities = 12.5%  SS-score = 19.74
+>Seg  4   47-108   Z-score =  0.57  Score = 138.22  P-value = 0.57553  Identities =  7.5%  SS-score =  7.20
+>Seg  5   61-143   Z-score = -0.15  Score = 108.38  P-value = 0.88519  Identities =  7.5%  SS-score =  5.01
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MNSLSNKLSIVLRGSICLLGLVSVGNFLAAPANAQQATARGAVTLIRPSGTFLSVTGELILPSGSDYSAGIKIAPTYGGI 80  
+Query SS       CCCCCCCEEEEEEEEEEEEEEEECCEEEECCCCHHHHHHCCCEEEECCCCCEEEEEEEEECCCCCCCCCEEEEEECCCCC
+WD40-rpts                             (______________________WD 1______________________)       
+
+Query       81 AGSNEETITSLTITPGVVKTTTLSSPNSLIDAVTTSLNNSVSIEDTITIIRAGSGINSLGALD 143 
+Query SS       CCCCCCEEEEEEECCCEEEEEECCCCCCHHHHHHHCCCCEEEEEEEEEEEEECCCCCCCCCCC
+WD40-rpts                                                                     
+
+
+1 WD40-repeats found in QUERY=gi_186467722_gb_ACC83523.1_ (Len=143):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  2    24-73       3.79  271.32  0.01365       12.5%      8.91
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1   24-73     VGNFLAAPANAQQATARGAVTLIRPSGTFLSVTGELILPSGSDYSAGIKI
+
+   WD40 Template    TGECLRTLSG----------HTSGVTSVSFSPDGKRLVSGSEDGTIKVWD
+        Tmplt-SS    CCEEEEEECC----------CCCCEEEEEECCCCCEEEEEECCCCEEEEE
+
+   SS 1   24-73     CCEEEECCCCHHHHHHCCCEEEECCCCCEEEEEEEEECCCCCCCCCEEEE

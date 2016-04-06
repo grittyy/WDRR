@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #DDD;
+	font-family: "Times New Roman", Times, serif;
+/*	color: #000000;*/
+}
+
+.title {
+	font-size: 24px;
+	padding: 10px;
+	color: #0033CC;
+}
+
+.title:hover {
+	color: #0033CC;
+	text-decoration: none;
+}
+
+#wdrr #submit {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#wdrr #reset {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0033CC;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #0033CC;
+	text-decoration: none;
+}
+
+textarea {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+pre {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+}
+
+.list {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+#logo a{display:block;background:no-repeat url(sprites.gif) -135px -444px;height:38px;width:213px}
+
+.box {
+	overflow: auto;
+	width:776px;
+	border: .1em dotted #777;
+	background-color:#FFF;
+	padding: 10px;
+}

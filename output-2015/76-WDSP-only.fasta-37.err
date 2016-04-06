@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5RCW7|KLD8B_PONAB Kelch domain-containing protein 8B OS=Pongo abelii GN=KLHDC8B PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

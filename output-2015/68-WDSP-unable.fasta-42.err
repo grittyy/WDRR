@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5R9B8|DCAF6_PONAB DDB1- and CUL4-associated factor 6 OS=Pongo abelii GN=DCAF6 PE=2 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

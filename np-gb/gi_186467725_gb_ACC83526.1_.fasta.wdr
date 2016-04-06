@@ -1,0 +1,51 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186467725_gb_ACC83526.1_ (Len=244)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   80-180   Z-score = -0.30  Score = 102.40  P-value = 0.92617  Identities =  5.0%  SS-score = -24.46
+>Seg  2  146-190   Z-score =  0.39  Score = 130.81  P-value = 0.65997  Identities = 12.5%  SS-score =  8.81
+>Seg  3  157-201   Z-score = -0.29  Score = 102.65  P-value = 0.92466  Identities = 12.5%  SS-score =  3.89
+>Seg  4  168-214   Z-score =  0.79  Score = 147.31  P-value = 0.47604  Identities = 12.5%  SS-score = 26.97
+>Seg  5  177-231   Z-score =  2.90  Score = 234.45  P-value = 0.04227  Identities = 30.0%  SS-score = 42.52
+>Seg  6  189-239   Z-score = -0.10  Score = 110.60  P-value = 0.86740  Identities =  0.0%  SS-score = 32.16
+>Seg  7  200-244   Z-score =  0.09  Score = 118.55  P-value = 0.79365  Identities = 10.0%  SS-score = 22.68
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MNMKPQNFRKSAELIGAICGGLMISLPVIPQAMAQQSVGQESTPKINPCPRIFYEEPHNSRVVVPQGCPPNALTQRLAAQ 80  
+Query SS       CCCCCHHHHHHHHHHHHHHHHHHCCCCCCHHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHC
+WD40-rpts                                                                                      
+
+Query       81 GLLPNSANPSQEQTRLGVGGESPETGVTPPRPASGDQTQQPSPGAVSTNQPQQLQPRQTPSATIALANGTVNVRLVNDTA 160 
+Query SS       CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEECCCCEEEEEEECCCC
+WD40-rpts                                                                                      
+
+Query      161 ANVTFQVIGDTAPRSLQGKSNVILQGLRAPVTVTFEREDGGQLIVTPQASSEPGSLEVRFNEATNAAQGRSAMRIERNGS 240 
+Query SS       CCEEEEECCCCCCEEECCCCEEEECCCCCCEEEEEEECCCCEEEEEECCCCCCCEEEEEEECCCCCCCCCCEEEEEECCE
+WD40-rpts                      (___________________WD 1___________________)                    
+
+Query      241 VFLN 244 
+Query SS       EEEC
+WD40-rpts          
+
+
+1 WD40-repeats found in QUERY=gi_186467725_gb_ACC83526.1_ (Len=244):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  5   177-220      2.90  234.45  0.04227       30.0%     42.52
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  177-220    QGKSNVILQGLRAPVTVTFEREDGGQLIVTPQASSEPGSLEVRF
+
+   WD40 Template    TGECLRTLSGHTSGVTSVSFSPDGKRLV----SGSEDGTIKVWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEEECCCCCEEE----EEECCCCEEEEE
+
+   SS 1  177-220    CCCCEEEECCCCCCEEEEEEECCCCEEEEEECCCCCCCEEEEEE

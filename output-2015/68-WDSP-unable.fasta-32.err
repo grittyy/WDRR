@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q54NI1|APC4_DICDI Anaphase-promoting complex subunit 4 OS=Dictyostelium discoideum GN=anapc4 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

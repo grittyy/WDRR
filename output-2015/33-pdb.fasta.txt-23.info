@@ -1,0 +1,105 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Cmd = /home/cwang/wdrr/bin/wdrr-2015.pl -i /home/cwang/wdrr/output-2015/33-pdb.fasta.txt-23.fasta -cpu 3 -d /home/cwang/wdrr/blastdb/nr90 -h 1 -o /home/cwang/wdrr/output-2015/33-pdb.fasta.txt-23.wdr
+  Query = 1SQ9_A_PDBID_CHAIN_SEQUENCE (Len=397)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+  Doing PSI-BLAST against /home/cwang/wdrr/blastdb/nr90 for QUERY=1SQ9_A_PDBID_CHAIN_SEQUENCE (Len=397)...
+  Predicting PSIPRED secondary structure types...
+  Calculating profile for QUERY=1SQ9_A_PDBID_CHAIN_SEQUENCE (Len=397)...
+  Aligning segments...
+
+>Seg  1    1-55    Z-score =  7.06  Score = 406.24  P-value = 0.00021  Identities = 32.5%  SS-score = 44.58
+>Seg  2    9-64    Z-score =  6.69  Score = 390.97  P-value = 0.00033  Identities = 32.5%  SS-score = 41.50
+>Seg  3   25-82    Z-score =  1.59  Score = 180.25  P-value = 0.20738  Identities = 22.5%  SS-score = 26.71
+>Seg  4   34-92    Z-score = -0.04  Score = 113.08  P-value = 0.84597  Identities =  5.0%  SS-score = 23.51
+>Seg  5   43-103   Z-score =  2.32  Score = 210.55  P-value = 0.08673  Identities = 17.5%  SS-score = 29.79
+>Seg  6   63-113   Z-score =  7.73  Score = 433.80  P-value = 8.9e-05  Identities = 27.5%  SS-score = 43.31
+>Seg  7   77-123   Z-score =  6.70  Score = 391.33  P-value = 0.00033  Identities = 25.0%  SS-score = 34.65
+>Seg  8   90-139   Z-score =  1.95  Score = 195.13  P-value = 0.13622  Identities = 17.5%  SS-score = 22.12
+>Seg  9  104-149   Z-score =  3.45  Score = 257.07  P-value = 0.02117  Identities = 20.0%  SS-score = 35.95
+>Seg 10  110-164   Z-score =  7.25  Score = 414.13  P-value = 0.00016  Identities = 22.5%  SS-score = 45.73
+>Seg 11  118-177   Z-score =  6.37  Score = 377.61  P-value = 0.00051  Identities = 22.5%  SS-score = 39.85
+>Seg 12  132-188   Z-score =  2.22  Score = 206.51  P-value = 0.09771  Identities = 17.5%  SS-score = 26.61
+>Seg 13  150-198   Z-score =  0.27  Score = 125.73  P-value = 0.71721  Identities = 12.5%  SS-score =  9.80
+>Seg 14  155-208   Z-score =  2.49  Score = 217.44  P-value = 0.07062  Identities = 20.0%  SS-score = 38.74
+>Seg 15  169-218   Z-score =  7.10  Score = 408.01  P-value = 0.00020  Identities = 20.0%  SS-score = 48.80
+>Seg 16  181-235   Z-score =  6.51  Score = 383.55  P-value = 0.00042  Identities = 20.0%  SS-score = 44.77
+>Seg 17  195-246   Z-score =  1.34  Score = 169.92  P-value = 0.27402  Identities = 12.5%  SS-score = 28.80
+>Seg 18  209-259   Z-score =  5.15  Score = 327.57  P-value = 0.00239  Identities = 20.0%  SS-score = 31.56
+>Seg 19  214-268   Z-score =  7.39  Score = 420.10  P-value = 0.00014  Identities = 22.5%  SS-score = 46.86
+>Seg 20  223-293   Z-score =  7.94  Score = 442.68  P-value = 6.7e-05  Identities = 22.5%  SS-score = 46.86
+>Seg 21  242-304   Z-score =  1.34  Score = 170.03  P-value = 0.27328  Identities = 12.5%  SS-score = 30.14
+>Seg 22  260-314   Z-score =  4.12  Score = 284.69  P-value = 0.00904  Identities = 27.5%  SS-score = 32.49
+>Seg 23  265-323   Z-score =  8.65  Score = 472.02  P-value = 2.7e-05  Identities = 32.5%  SS-score = 42.74
+>Seg 24  275-341   Z-score =  9.33  Score = 500.18  P-value = 1.1e-05  Identities = 32.5%  SS-score = 42.74
+>Seg 25  300-350   Z-score =  3.07  Score = 241.34  P-value = 0.03427  Identities = 17.5%  SS-score = 30.76
+>Seg 26  315-360   Z-score =  3.01  Score = 238.81  P-value = 0.03702  Identities = 20.0%  SS-score = 34.71
+>Seg 27  320-377   Z-score =  5.26  Score = 331.81  P-value = 0.00210  Identities = 17.5%  SS-score = 46.35
+>Seg 28  330-388   Z-score =  3.51  Score = 259.82  P-value = 0.01946  Identities = 10.0%  SS-score = 35.12
+>Seg 29  346-397   Z-score =  1.91  Score = 193.42  P-value = 0.14307  Identities = 12.5%  SS-score = 34.23
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MSKVFIATANAGKAHDADIFSVSACNSFTVSCSGDGYLKVWDNKLLDNENPKDKSYSHFVHKSGLHHVDVLQAIERDAFE 80  
+Query SS       CCCEEEEECCCCCCCCCCEEEEEECCCCEEEEECCCCEEEEECCCCCCCCCCCCCEEEEEEECCEEEEEEEEEEEECCCC
+WD40-rpts      (__________________WD 1__________________)                    (_________________
+
+Query       81 LCLVATTSFSGDLLFYRITREDETKKVIFEKLDLLDSDMKKHSFWALKWGASNDRLLSHRLVATDVKGTTYIWKFHPFAD 160 
+Query SS       CCEEEEEEECCCEEEEEEECCCCEEEEEECCCCEEEECCCCCCEEEEEEEECCCCCCCCEEEEECCCCCEEEEECCCCCC
+WD40-rpts      ____WD 2____________________)   (__________________WD 3__________________)      
+
+Query      161 ESNSLTLNWSPTLELQGTVESPMTPSQFATSVDISERGLIATGFNNGTVQISELSTLRPLYNFESQHSMINNSNSIRSVK 240 
+Query SS       CCCCEEEECCCCCCCCCEEECCCCCCCCEEEEEECCCCEEEEEECCCCEEEEECCCCCEEEECCCCCCCCCCCCCEEEEE
+WD40-rpts                     (________________WD 4________________)         (_________________
+
+Query      241 FSPQGSLLAIAHDSNSFGCITLYETEFGERIGSLSVPTHSSQASLGEFAHSSWVMSLSFNDSGETLCSAGWDGKLRFWDV 320 
+Query SS       ECCCCCEEEEEECCCCCCCEEEEECCCCEEEEEECCCCCCCCCCCCCCCCCCCEEEEEECCCCCEEEEEECCCCEEEEEC
+WD40-rpts      _WD 5__________________)                (_________________WD 6________________) 
+
+Query      321 KTKERITTLNMHCDDIEIEEDILAVDEHGDSLAEPGVFDVKFLKKGWRSGMGADLNESLCCVCLDRSIRWFREAGGK 397 
+Query SS       CCCEEEEEECCCCCCCCCCCCEEEECCCCCEEEEECCCCCEEEEEEEEECCCCCCCCEEEEEEECCCCEEEECCCCC
+WD40-rpts        (___________________WD 7___________________)                               
+
+
+7 WD40-repeats found in QUERY=1SQ9_A_PDBID_CHAIN_SEQUENCE (Len=397):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  1     1-42       7.06  406.24  0.00021       32.5%     44.58
+  WD 2:  Seg  6    63-109      7.73  433.80  8.9e-05       27.5%     43.31
+  WD 3:  Seg 10   113-154      7.25  414.13  0.00016       22.5%     45.73
+  WD 4:  Seg 15   176-213      7.10  408.01  0.00020       20.0%     48.80
+  WD 5:  Seg 20   223-264      7.94  442.68  6.7e-05       22.5%     46.86
+  WD 6:  Seg 24   281-319      9.33  500.18  1.1e-05       32.5%     42.74
+  WD 7:  Seg 27   323-366      5.26  331.81  0.00210       17.5%     46.35
+
+Multiple sequence alignment of 7 WD40-repeats:
+
+   WD 1    1-42     MS-------KVFIATANAGKAHDADI----FSVSACNS-----FTVSCSG-DGY---LKVWD
+   WD 2   63-109    SGLHHVDVLQ----AIERDAFELCLV----ATTSFSGD---LLFYRITRE-DET---KKVIF
+   WD 3  113-154    -D-------L----LDSDMKKHSFWA----LKWGASNDRLLSHRLVATDV-KGT---TYIWK
+   WD 4  176-213    -Q-------G----TVESPMTPSQFA----TSVDISER---G-LIATGFN-NGT---VQISE
+   WD 5  223-264    -F-------E----SQHSMINNSNSI----RSVKFSPQ---GSLLAIAHD-SNSFGCITLYE
+   WD 6  281-319    -S-------Q----ASLGEFAHSSWV----MSLSFNDS---GETLCSAGW-DGK---LRFWD
+   WD 7  323-366    -K-------E----RITTLNMHCDDIEIEEDILAVDEH---GDSLAEPGVFDVK---FLKKG
+
+   WD40 Template    TG-------E----CLRTLSGHTSGV----TSVSFSPD---GKRLVSGSE-DGT---IKVWD
+        Tmplt-SS    CC-------E----EEEEECCCCCCE----EEEEECCC---CCEEEEEEC-CCC---EEEEE
+
+   SS 1    1-42     CC-------CEEEEECCCCCCCCCCE----EEEEECCC-----CEEEEEC-CCC---EEEEE
+   SS 2   63-109    CCEEEEEEEE----EEEECCCCCCEE----EEEEECCC---EEEEEEECC-CCE---EEEEE
+   SS 3  113-154    -C-------E----EEECCCCCCEEE----EEEEECCCCCCCCEEEEECC-CCC---EEEEE
+   SS 4  176-213    -C-------C----EEECCCCCCCCE----EEEEECCC---C-EEEEEEC-CCC---EEEEE
+   SS 5  223-264    -C-------C----CCCCCCCCCCCE----EEEEECCC---CCEEEEEEC-CCCCCCEEEEE
+   SS 6  281-319    -C-------C----CCCCCCCCCCCE----EEEEECCC---CCEEEEEEC-CCC---EEEEE
+   SS 7  323-366    -C-------E----EEEEECCCCCCCCCCCCEEEECCC---CCEEEEECCCCCE---EEEEE
+
+  ==========
+  64.000 seconds.
+

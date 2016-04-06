@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q59P11|HSV2_CANAL SVP1-like protein 2 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) GN=HSV2 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

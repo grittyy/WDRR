@@ -1,0 +1,43 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186463091_gb_ACC78892.1_ (Len=210)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-132   Z-score =  0.31  Score = 127.47  P-value = 0.69778  Identities = 10.0%  SS-score =  2.32
+>Seg  2   55-157   Z-score =  1.82  Score = 189.75  P-value = 0.15891  Identities = 27.5%  SS-score = 17.25
+>Seg  3   85-173   Z-score =  3.14  Score = 244.46  P-value = 0.03116  Identities = 22.5%  SS-score = 17.42
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MMLNNFETDSIFTPEQVLENRGRVAIFIDGSNLFYAALQLGIEIDYTKLLCRLTGGSRLLRSFFYTGVDRTNEKQQGFLL 80  
+Query SS       CCCCCCCCCCCCCCCCCCCCCCEEEEEEECCCHHHHHHHCCCCCCHHHHHHHHHCCCCEEEEEEEECCCCCCHHHHHHHH
+WD40-rpts                                                                                      
+
+Query       81 WMRRNGYRVIAKDLVQLPDGSKKANLDVEIAVDMMALVDSYDTAVLVSGDGDLAYAVNSVSYRGVRVEVVSLRSMTSDSL 160 
+Query SS       HHHHCCCEEEEECCEECCCCCCCCCCHHHHHHHHHHCCCCCCEEEEEECCCCHHHHHHHHHHCCCEEEEEECCCCCCHHH
+WD40-rpts          (______________________________WD 1_____________________________)           
+
+Query      161 INVSDRYIDLEAIKEDIQKTPRQSYPYRPLSGIGFLEDPRTSDGHLEIQE 210 
+Query SS       HHCCCCEEECCCCHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                        
+
+
+1 WD40-repeats found in QUERY=gi_186463091_gb_ACC78892.1_ (Len=210):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  3    85-149      3.14  244.46  0.03116       22.5%     17.42
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1   85-149    NGYRVIAKDLVQLPDGSKKANLDVEIAVDMMALVDSYDTAVLVSGDGDLAYAVNSVSYRGVRVEV
+
+   WD40 Template    TGECLRTLSGHTSGVTSVSFSP---------------DGKRLVSGSED----------GTIKVWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEEECC---------------CCCEEEEEECC----------CCEEEEE
+
+   SS 1   85-149    CCCEEEEECCEECCCCCCCCCCHHHHHHHHHHCCCCCCEEEEEECCCCHHHHHHHHHHCCCEEEE

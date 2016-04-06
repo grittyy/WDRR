@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|A6ZWF0|ATG21_YEAS7 Autophagy-related protein 21 OS=Saccharomyces cerevisiae (strain YJM789) GN=ATG21 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

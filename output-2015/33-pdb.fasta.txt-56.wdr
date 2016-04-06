@@ -1,0 +1,36 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = 2VDU_E_PDBID_CHAIN_SEQUENCE (Len=254)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   51-153   Z-score = -0.36  Score =  99.97  P-value = 0.93982  Identities =  7.5%  SS-score = -13.55
+>Seg  2   79-183   Z-score =  0.22  Score = 123.85  P-value = 0.73784  Identities =  7.5%  SS-score =  6.70
+>Seg  3  112-254   Z-score =  0.21  Score = 123.34  P-value = 0.74345  Identities = 17.5%  SS-score =  0.76
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 VQEGQKIDLPKKRYYRQRAHSNPFSDHQLEYPVSPQDMDWSKLYPYYKNAENGQMTKKVTIADIGCGFGGLMIDLSPAFP 80  
+Query SS       CCCCCCCCCCCCHHHHHHCCCCCCCCCCCCCCCCCCCCCHHHHCCCCHHHCCCCCCCCCEEEEEECCCCHHHHHHHHHCC
+WD40-rpts                                                                                      
+
+Query       81 EDLILGMEIRVQVTNYVEDRIIALRNNTASKHGFQNINVLRGNAMKFLPNFFEKGQLSKMFFCFPDPHFKQRKHKARIIT 160 
+Query SS       CCCEEEEECCCCHHHHHHHHHHHHHHCHHHHCCCCCEEEEECCHHHHCCCCCCCCCCCEEEEECCCCCCCCCCHHHHCCC
+WD40-rpts                                                                                      
+
+Query      161 NTLLSEYAYVLKEGGVVYTITDVKDLHEWMVKHLEEHPLFERLSKEWEENDECVKIMRNATEEGKKVERKKGDKFVACFT 240 
+Query SS       HHHHHHHHHCCCCCCEEEEEECCHHHHHHHHHHHHHCCCCCCCCCCHHCCCCCHHHHHHHHHHHHHHHHCCCCEEEEEEE
+WD40-rpts                                                                                      
+
+Query      241 RLPTPAILHHHHHH 254 
+Query SS       ECCCCCCCCCCCCC
+WD40-rpts                    
+
+
+No WD40-repeats found in QUERY=2VDU_E_PDBID_CHAIN_SEQUENCE (Len=254)!

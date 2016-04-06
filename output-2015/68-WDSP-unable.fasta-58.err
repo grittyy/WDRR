@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q8X1F5|ATG18_PICPA Autophagy-related protein 18 OS=Komagataella pastoris GN=ATG18 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

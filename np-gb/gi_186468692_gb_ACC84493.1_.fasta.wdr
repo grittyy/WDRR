@@ -1,0 +1,60 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186468692_gb_ACC84493.1_ (Len=389)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   25-115   Z-score = -0.53  Score =  92.72  P-value = 0.97040  Identities = 10.0%  SS-score =  7.76
+>Seg  2   38-126   Z-score =  0.09  Score = 118.29  P-value = 0.79636  Identities = 12.5%  SS-score = 21.30
+>Seg  3   70-158   Z-score =  0.27  Score = 125.77  P-value = 0.71669  Identities = 17.5%  SS-score = 15.54
+>Seg  4   98-182   Z-score =  0.02  Score = 115.45  P-value = 0.82414  Identities = 20.0%  SS-score = 13.33
+>Seg  5  106-245   Z-score =  0.58  Score = 138.56  P-value = 0.57169  Identities = 20.0%  SS-score = 13.09
+>Seg  6  122-257   Z-score =  2.89  Score = 233.94  P-value = 0.04294  Identities = 20.0%  SS-score = 12.61
+>Seg  7  174-292   Z-score =  1.71  Score = 185.33  P-value = 0.18004  Identities = 15.0%  SS-score = 10.76
+>Seg  8  225-308   Z-score =  1.17  Score = 162.99  P-value = 0.32782  Identities = 17.5%  SS-score = -6.32
+>Seg  9  237-320   Z-score =  0.19  Score = 122.60  P-value = 0.75137  Identities =  7.5%  SS-score = -8.90
+>Seg 10  268-339   Z-score =  0.14  Score = 120.29  P-value = 0.77588  Identities = 12.5%  SS-score = 12.83
+>Seg 11  289-353   Z-score = -0.66  Score =  87.40  P-value = 0.98427  Identities = 12.5%  SS-score = 10.89
+>Seg 12  299-379   Z-score = -0.10  Score = 110.64  P-value = 0.86702  Identities = 15.0%  SS-score =  9.29
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MKKYRLFGVISAVCITLSILYSFVGNSQTPTSRVLLFTNPPLERILPFEAEAEKPQSPVTLTLQAVDAAGKHLENTKISL 80  
+Query SS       CCCCEECHHHHHHHHHHHHHHHHHCCCCCCCCEEEEECCCCCCCCCCCCCCCCCCCCCEEEEHHHHHHHCCCCCCCEEEE
+WD40-rpts                                                                                      
+
+Query       81 QILTPPRNPWLTTDFPIVEGTKLLQMNANAPDGKLEIQQMLPIRGNYQLMVNVSPLVTNTFAPYQQTLNLNVHENPIKYK 160 
+Query SS       EEECCCCCCCCCCCCCCEECCEEEECCCCCCCCCCEEEEEECCCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCHH
+WD40-rpts                                               (__________________________WD 1________
+
+Query      161 YFVVIAAILLSLGLLGGWVIGGQEELQQGEIAPQSVRLLLSALTVVAIVTLLVINISAEVAEAHGSEHHPSSTEVIAPSS 240 
+Query SS       HHHHHHHHHHHHHCCCCEEECCHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHEEHHHHHHHHHCCCCCCCCCEEECCCC
+WD40-rpts      __________________)                                                             
+
+Query      241 QKSQGLEISLNGDKNATVGKLANLALQLKDTASGQPIADVALEVKAIATEHNLTIFDYKGIPDEQGKLTWQEQFFDGSPH 320 
+Query SS       CCCCCEEEEECCCCCCCHHHHHHHHHHCCCCCCCCCCCCEEEEEEEEECCCCEEEEEECCCCCCCCCCEEEEECCCCCCC
+WD40-rpts                                                                                      
+
+Query      321 KIEVEATPLPGSNRQFAPVKVAQEVEVKAIAPPIYIRLIGLFYFTAFVGIGMAIGLLIQHRRTPQARGN 389 
+Query SS       EEEEEEECCCCCCCCCCCCEEEEEEEEEECCCCEEEEEHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCC
+WD40-rpts                                                                           
+
+
+1 WD40-repeats found in QUERY=gi_186468692_gb_ACC84493.1_ (Len=389):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  6   122-179      2.89  233.94  0.04294       20.0%     12.61
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  122-179    PIRGNYQLMVNVSPLVTNTFAPYQQTLNLNVHENPIKYKYFVVIAAILLSLGLLGGWV
+
+   WD40 Template    TGECLRTLSGHTSGVTSVSFSPDGKRLVSGSEDGTIK------------------VWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEEECCCCCEEEEEECCCCEE------------------EEE
+
+   SS 1  122-179    CCCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHCCCCEE

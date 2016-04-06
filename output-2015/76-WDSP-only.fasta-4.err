@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|C7GTF9|SWT21_YEAS2 Protein SWT21 OS=Saccharomyces cerevisiae (strain JAY291) GN=SWT21 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q6P2C0|WDR93_HUMAN WD repeat-containing protein 93 OS=Homo sapiens GN=WDR93 PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

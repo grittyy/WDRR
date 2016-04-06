@@ -1,0 +1,39 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = 1K8K_D_PDBID_CHAIN_SEQUENCE (Len=300)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   24-105   Z-score =  0.30  Score = 127.24  P-value = 0.70034  Identities =  7.5%  SS-score = -11.85
+>Seg  2   38-150   Z-score =  0.88  Score = 151.15  P-value = 0.43655  Identities = 20.0%  SS-score = 24.38
+>Seg  3   47-159   Z-score =  0.73  Score = 144.71  P-value = 0.50366  Identities = 12.5%  SS-score = -7.05
+>Seg  4   81-174   Z-score =  0.28  Score = 126.28  P-value = 0.71105  Identities = 17.5%  SS-score = 23.00
+>Seg  5  135-237   Z-score =  0.28  Score = 126.07  P-value = 0.71341  Identities = 10.0%  SS-score = 12.31
+>Seg  6  147-300   Z-score =  0.08  Score = 117.91  P-value = 0.80009  Identities =  7.5%  SS-score = 22.50
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MILLEVNNRIIEETLALKFENAAAGNKPEAVEVTFADFDGVLYHISNPNGDKTKVMVSISLKFYKELQAHGADELLKRVY 80  
+Query SS       CCCCCCCHHHHHHHHHHHHHHHHCCCCCCCEEEEEEECCCEEEEEECCCCCCCEEEEEEECCCHHHHHHCCHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query       81 GSYLVNPESGYNVSLLYDLENLPASKDSIVHQAGMLKRNCFASVFEKYFQFQEEGKEGENRAVIHYRDDETMYVESKKDR 160 
+Query SS       CCCCCCCCCCCEEEEEEECCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCEEEEEECCCCEEEEEECCCE
+WD40-rpts                                                                                      
+
+Query      161 VTVVFSTVFKDDDDVVIGKVFMQEFKEGRRASHTAPQVLFSHREPPLELKDTDAAVGDNIGYITFVLFPRHTNASARDNT 240 
+Query SS       EEEEEEEEECCCCCHHHHHHHHHHHHHHHHCCCCCCCEECCCCCCCCCCCCCCCCCCCCEEEEEEEECCCCCCCCCCHHH
+WD40-rpts                                                                                      
+
+Query      241 INLIHTFRDYLHYHIKCSKAYIHTRMRAKTSDFLKVLNRARPDAEKKEMKTITGKTFSSR 300 
+Query SS       HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCEEEECCCCCCCC
+WD40-rpts                                                                  
+
+
+No WD40-repeats found in QUERY=1K8K_D_PDBID_CHAIN_SEQUENCE (Len=300)!

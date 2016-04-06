@@ -1,0 +1,60 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186468209_gb_ACC84010.1_ (Len=471)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1   46-189   Z-score =  0.30  Score = 127.16  P-value = 0.70129  Identities = 22.5%  SS-score = -9.56
+>Seg  2  113-262   Z-score =  0.92  Score = 152.74  P-value = 0.42075  Identities = 12.5%  SS-score = 11.25
+>Seg  3  128-314   Z-score =  1.82  Score = 189.84  P-value = 0.15848  Identities = 20.0%  SS-score = -18.77
+>Seg  4  174-344   Z-score =  1.31  Score = 168.63  P-value = 0.28347  Identities = 20.0%  SS-score = 10.76
+>Seg  5  251-354   Z-score =  2.77  Score = 228.97  P-value = 0.04991  Identities = 20.0%  SS-score = 22.42
+>Seg  6  302-371   Z-score =  1.83  Score = 190.07  P-value = 0.15745  Identities = 20.0%  SS-score = 18.64
+>Seg  7  324-380   Z-score =  0.91  Score = 152.08  P-value = 0.42721  Identities = 20.0%  SS-score =  4.81
+>Seg  8  333-399   Z-score =  0.70  Score = 143.38  P-value = 0.51819  Identities = 15.0%  SS-score =  6.57
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MTTLPDLDYVYKQQSQQNQELNLSADDYSLLTDLYQLTMAACYTGEGIEQRRASFELSVRRLPEGFGYLIAMGLTQALEY 80  
+Query SS       CCCCCCHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHCCCCCCEEEEEEEECCCCCCCCHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query       81 LAKIRFSSAQIAALQATGIFAHAGDRFWSLLAEGKFTGDVWAVPEGTAVFANQPLLRVEAPLWQAQLVETYLLNTINYQT 160 
+Query SS       HHCCCCCHHHHHHHHHCCCCCCCCHHHHHHHHCCCCCCEEEEECCCCEECCCCCEEEEEECCHHHHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      161 LIATKAARLRDIAGESATLLEFGTRRAFSPQGSLWAARAALAGGLDSTSNVLAALQLGQQPSGTMAHALVMALSAIEGTE 240 
+Query SS       HHHHHHHHHHHHHCCCCEEEEECCCCCCCHHHHHHHHHHHHHCCHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHCCCCCH
+WD40-rpts                                                                                      
+
+Query      241 EQAFSAFHRYFPGAPLLIDTYDTIAAAGRLAEKVNSGEMQLTGVRLDSGDLVTLSKQVRSLLPGVPIFASGDLDEWEIAR 320 
+Query SS       HHHHHHHHHHCCCCEEEEECCCHHHHHHHHHHHHCCCCCCCCCCCCCCCCHHHHHHHHHHHCCCCEEEECCCCCHHHHHH
+WD40-rpts                (______________________________________WD 1___________________________
+
+Query      321 LKAAGAEIDGYGLGTRLVTGSPVNGVYKLVDIDGIPVMKQSSGKVTYPGRKQIFRSYTGGKVKADRLGLLGESSQEEEPL 400 
+Query SS       HHHCCCCEEEEECCCCCCCCCCCCEEEEEEEECCEEEEECCCCCCCCCCCCEEEEEECCCEEEEEEEECCCCCCCCCCCH
+WD40-rpts      ___________)                                                                    
+
+Query      401 LQLVVQEGQRVQPLESLATIRQRTAVSVASLPQQTRLLDHPVAVEVEISEALRVLTEETKKRTAEALSTQR 471 
+Query SS       HHHHHHCCEECCCCCCHHHHHHHHHHHHHCCCHHHHCCCCCCCCEECCCHHHHHHHHHHHHHHHHHHHHCC
+WD40-rpts                                                                             
+
+
+1 WD40-repeats found in QUERY=gi_186468209_gb_ACC84010.1_ (Len=471):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  5   251-332      2.77  228.97  0.04991       20.0%     22.42
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  251-332    FPGAPLLIDTYDTIAAAGRLAEKVNSGEMQLTGVRLDSGDLVTLSKQVRSLLPGVPIFASGDLDEWEIARLKAAGAEIDGYG
+
+   WD40 Template    TGECLRTLSGHT-------------------SGVTSVSFS------------PDGKRLVSGSED-----------GTIKVWD
+        Tmplt-SS    CCEEEEEECCCC-------------------CCEEEEEEC------------CCCCEEEEEECC-----------CCEEEEE
+
+   SS 1  251-332    CCCCEEEEECCCHHHHHHHHHHHHCCCCCCCCCCCCCCCCHHHHHHHHHHHCCCCEEEECCCCCHHHHHHHHHCCCCEEEEE

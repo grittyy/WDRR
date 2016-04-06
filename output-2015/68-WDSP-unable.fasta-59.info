@@ -1,0 +1,105 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Cmd = /home/cwang/wdrr/bin/wdrr-2015.pl -i /home/cwang/wdrr/output-2015/68-WDSP-unable.fasta-59.fasta -cpu 3 -d /home/cwang/wdrr/blastdb/nr90 -h 1 -o /home/cwang/wdrr/output-2015/68-WDSP-unable.fasta-59.wdr
+  Query = sp_Q91W96_APC4_MOUSE (Len=807)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+  Doing PSI-BLAST against /home/cwang/wdrr/blastdb/nr90 for QUERY=sp_Q91W96_APC4_MOUSE (Len=807)...
+  Predicting PSIPRED secondary structure types...
+  Calculating profile for QUERY=sp_Q91W96_APC4_MOUSE (Len=807)...
+  Aligning segments...
+
+>Seg  1    1-52    Z-score =  2.43  Score = 215.09  P-value = 0.07575  Identities =  7.5%  SS-score = 38.20
+>Seg  2   15-67    Z-score =  2.51  Score = 218.38  P-value = 0.06867  Identities = 10.0%  SS-score = 42.18
+>Seg  3   29-78    Z-score =  0.33  Score = 128.35  P-value = 0.68785  Identities = 10.0%  SS-score = 26.99
+>Seg  4   40-88    Z-score =  0.83  Score = 149.09  P-value = 0.45747  Identities = 22.5%  SS-score = 36.65
+>Seg  5   49-99    Z-score =  3.62  Score = 264.37  P-value = 0.01691  Identities = 30.0%  SS-score = 49.67
+>Seg  6   58-109   Z-score =  3.45  Score = 257.03  P-value = 0.02120  Identities = 25.0%  SS-score = 35.44
+>Seg  7   74-162   Z-score = -0.16  Score = 108.21  P-value = 0.88653  Identities = 15.0%  SS-score = 44.85
+>Seg  8   89-183   Z-score = -0.12  Score = 109.53  P-value = 0.87609  Identities =  2.5%  SS-score = 15.29
+>Seg  9   95-203   Z-score =  0.17  Score = 121.60  P-value = 0.76211  Identities =  5.0%  SS-score = 20.00
+>Seg 10  105-217   Z-score = -0.36  Score =  99.99  P-value = 0.93972  Identities = 12.5%  SS-score = -4.10
+>Seg 11  166-229   Z-score = -0.37  Score =  99.46  P-value = 0.94243  Identities = 12.5%  SS-score = 22.53
+>Seg 12  180-244   Z-score =  0.09  Score = 118.22  P-value = 0.79702  Identities = 15.0%  SS-score = 23.44
+>Seg 13  200-583   Z-score = -0.51  Score =  93.57  P-value = 0.96755  Identities = 12.5%  SS-score = 20.01
+>Seg 14  210-596   Z-score =  0.43  Score = 132.46  P-value = 0.64112  Identities = 25.0%  SS-score = -1.73
+>Seg 15  224-614   Z-score =  0.60  Score = 139.58  P-value = 0.56022  Identities =  7.5%  SS-score = -4.05
+>Seg 16  567-627   Z-score = -1.10  Score =  69.24  P-value = 0.99932  Identities = 15.0%  SS-score =  9.38
+>Seg 17  577-647   Z-score = -0.79  Score =  81.85  P-value = 0.99280  Identities = 15.0%  SS-score = 12.21
+>Seg 18  592-663   Z-score =  0.47  Score = 134.13  P-value = 0.62205  Identities = 15.0%  SS-score = 12.09
+>Seg 19  605-720   Z-score =  0.20  Score = 122.90  P-value = 0.74813  Identities = 15.0%  SS-score = 17.38
+>Seg 20  631-727   Z-score = -0.84  Score =  79.81  P-value = 0.99478  Identities =  2.5%  SS-score = -2.54
+>Seg 21  645-738   Z-score =  0.02  Score = 115.39  P-value = 0.82468  Identities =  7.5%  SS-score = -1.63
+>Seg 22  654-759   Z-score = -0.29  Score = 102.79  P-value = 0.92381  Identities = 10.0%  SS-score = -10.57
+>Seg 23  671-807   Z-score = -0.84  Score =  79.87  P-value = 0.99473  Identities =  2.5%  SS-score = -3.87
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MLRFPTCFPSFRVVGEKQLPQEIIFLAWSPKRDLIALANTTGEVLLHRLASFHRVWSFPPNESTGKEVTCLAWRPDGKLL 80  
+Query SS       CCCCCCCCCCCEEECCCCCCCCEEEEEECCCCCEEEEEECCCEEEEEECCCCEEEEECCCCCCCCCCEEEEEECCCCCEE
+WD40-rpts                                                      (____________________WD 1_______
+
+Query       81 AFALADTKKIILCDVEKPESLHSFSVEAPVSCMHWTEVTVESSVLTSFYNAEDESNLLLPKLPTLPKNYNSTSKIFSEEN 160 
+Query SS       EEEECCCCEEEEEECCCCCEEEEECCCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts      _____________)                                                                  
+
+Query      161 SDEIIKLLGDVRLNILVLGGSSGFIELYAYGMFKIARVTGIAGTCIALCLSSDLKSLSVVTEVSSGGESEVSYFQLETNL 240 
+Query SS       CCHHHEECCCCCEEEEEEECCCCEEEEEEEEEEEEEEEECCCCEEEEEECCCCCCCCEEEEEECCCCCCEEEEEEEEECC
+WD40-rpts                                                                                      
+
+Query      241 LYSFLPEVTRMARKFTHISALLQYINLSLTCMCEAWEEILMQMDSRLTKFVQEKPTTTSVQDEFMHLLLWGKASAELQTL 320 
+Query SS       CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHCCCCCHHHHHH
+WD40-rpts                                                                                      
+
+Query      321 LMNQLTVKGLKKLGQSIESSYSSIQKLVISHLQSGSESLLYHLSELKGMASWKQKYEPLGLDAAGIEDAITAVGSFILKA 400 
+Query SS       HHHHCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      401 NELLQVIDSSMKNFKAFFRWLYVAMLRMTEDHVLPELNKMTQKDITFVAEFLTEHFNEAPDLYNRKGKYFNVERVGQYLK 480 
+Query SS       HHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCHHHHHHHHHHHHHHCCCCCCHHHHHCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      481 DEDDDLVSPPNTEGNQWYDFLQNSTHLKESPLLFPYYPRKSLHFVKRRMENVIDQCLQKPADVIGRSMNQAICIPLYKDA 560 
+Query SS       CCCCCCCCCCCCCCCHHHHHHHCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHCCCHHHHHCCCCCEECCCCCCCC
+WD40-rpts                                                                                      
+
+Query      561 RSMDCARRLLKFPFLWNNKTSNLHYLLFTILEDSVYKMCILRRHTDISQSVSNGLIGIKFGSFTSASADKVRRSSYSCLD 640 
+Query SS       CCCHHHCCCCCCCEEECCCCCCCEEEEEEEECCCCCEEEEEEEECCCCCCCCCCEEEEECCCCCCCCHHHCCCCCCEEEE
+WD40-rpts                                                                                      
+
+Query      641 AQFYDDETVTVILKDSMGREGRDRILVQLSLSLVYNSEDSDEYEFTGSYSTRLDEQGSIIPTRTMHFEKHWRLLESMRAQ 720 
+Query SS       EEEECCCEEEEEECCCCCCCCCCEEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      721 YVAGNGLRKVSCVLSSNLRHVRVFEMDIDDEWEIDESSDDEEEAGGKPVKIKEEVLSESETEAHQDAAALDPDVVIKVEK 800 
+Query SS       EEEEECCEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCHHHHHCCCCCCCCHHHHCCCCCHHCCCCCCCCCCEEEEECC
+WD40-rpts                                                                                      
+
+Query      801 LDPELDS 807 
+Query SS       CCCCCCC
+WD40-rpts             
+
+
+1 WD40-repeats found in QUERY=sp_Q91W96_APC4_MOUSE (Len=807):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  5    49-94       3.62  264.37  0.01691       30.0%     49.67
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1   49-94     LASFHRVWSFPPNESTGKEVTCLAWRPDGKLLAFALADTKKIILCD
+
+   WD40 Template    TGECLRTLS-----GHTSGVTSVSFSPDGKRLVSGSED-GTIKVWD
+        Tmplt-SS    CCEEEEEEC-----CCCCCEEEEEECCCCCEEEEEECC-CCEEEEE
+
+   SS 1   49-94     CCCCEEEEECCCCCCCCCCEEEEEECCCCCEEEEEECCCCEEEEEE
+
+  ==========
+  61.000 seconds.
+

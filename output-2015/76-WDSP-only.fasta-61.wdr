@@ -1,0 +1,173 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = sp_Q9C0Y2_YKL1_SCHPO (Len=1220)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-64    Z-score =  0.18  Score = 122.15  P-value = 0.75623  Identities =  7.5%  SS-score = 13.04
+>Seg  2    4-75    Z-score = -1.11  Score =  68.98  P-value = 0.99936  Identities =  7.5%  SS-score = 11.84
+>Seg  3   18-87    Z-score = -0.27  Score = 103.54  P-value = 0.91919  Identities =  5.0%  SS-score = 14.24
+>Seg  4   26-99    Z-score = -0.45  Score =  96.07  P-value = 0.95808  Identities =  2.5%  SS-score =  7.82
+>Seg  5   59-111   Z-score = -0.02  Score = 113.84  P-value = 0.83911  Identities = 10.0%  SS-score = -6.11
+>Seg  6   69-120   Z-score = -0.13  Score = 109.32  P-value = 0.87781  Identities =  5.0%  SS-score = -20.84
+>Seg  7   83-137   Z-score = -0.12  Score = 109.83  P-value = 0.87367  Identities =  7.5%  SS-score =  3.48
+>Seg  8   94-147   Z-score = -0.62  Score =  89.22  P-value = 0.98022  Identities = 22.5%  SS-score = -5.78
+>Seg  9  107-159   Z-score =  0.20  Score = 122.98  P-value = 0.74731  Identities =  5.0%  SS-score =  1.84
+>Seg 10  118-173   Z-score =  0.05  Score = 116.63  P-value = 0.81277  Identities =  7.5%  SS-score = -10.05
+>Seg 11  127-183   Z-score =  0.02  Score = 115.69  P-value = 0.82183  Identities =  7.5%  SS-score = -17.80
+>Seg 12  142-192   Z-score = -0.06  Score = 112.29  P-value = 0.85295  Identities =  7.5%  SS-score = -9.91
+>Seg 13  154-209   Z-score = -0.33  Score = 101.23  P-value = 0.93296  Identities =  5.0%  SS-score = -13.51
+>Seg 14  164-219   Z-score = -0.47  Score =  95.10  P-value = 0.96195  Identities =  2.5%  SS-score = -18.97
+>Seg 15  178-231   Z-score = -0.11  Score = 109.95  P-value = 0.87273  Identities =  7.5%  SS-score = -3.85
+>Seg 16  191-244   Z-score =  0.11  Score = 119.08  P-value = 0.78827  Identities = 10.0%  SS-score = -0.36
+>Seg 17  201-255   Z-score =  0.06  Score = 117.20  P-value = 0.80716  Identities =  5.0%  SS-score = -21.62
+>Seg 18  214-264   Z-score = -0.05  Score = 112.71  P-value = 0.84929  Identities =  7.5%  SS-score = -12.64
+>Seg 19  226-279   Z-score = -0.31  Score = 101.93  P-value = 0.92897  Identities =  5.0%  SS-score = -14.13
+>Seg 20  235-291   Z-score =  0.40  Score = 131.32  P-value = 0.65413  Identities = 12.5%  SS-score = -13.64
+>Seg 21  250-304   Z-score = -0.05  Score = 112.62  P-value = 0.85007  Identities =  7.5%  SS-score = -3.14
+>Seg 22  262-317   Z-score = -0.08  Score = 111.49  P-value = 0.85987  Identities = 10.0%  SS-score =  0.55
+>Seg 23  274-327   Z-score = -0.48  Score =  94.71  P-value = 0.96346  Identities =  0.0%  SS-score = -5.77
+>Seg 24  286-339   Z-score = -0.08  Score = 111.23  P-value = 0.86209  Identities =  7.5%  SS-score = -13.31
+>Seg 25  298-353   Z-score = -0.27  Score = 103.47  P-value = 0.91958  Identities =  5.0%  SS-score = -12.76
+>Seg 26  308-363   Z-score = -0.41  Score =  97.87  P-value = 0.95017  Identities =  2.5%  SS-score = -19.86
+>Seg 27  322-375   Z-score = -0.04  Score = 112.94  P-value = 0.84723  Identities =  7.5%  SS-score = -7.00
+>Seg 28  335-389   Z-score =  0.02  Score = 115.48  P-value = 0.82385  Identities = 10.0%  SS-score = -6.90
+>Seg 29  345-399   Z-score =  0.08  Score = 118.14  P-value = 0.79787  Identities =  5.0%  SS-score = -23.52
+>Seg 30  359-410   Z-score =  0.31  Score = 127.50  P-value = 0.69742  Identities = 10.0%  SS-score = -10.44
+>Seg 31  370-424   Z-score = -0.35  Score = 100.25  P-value = 0.93833  Identities =  5.0%  SS-score = -22.20
+>Seg 32  382-434   Z-score = -0.54  Score =  92.45  P-value = 0.97124  Identities =  0.0%  SS-score = -12.79
+>Seg 33  394-447   Z-score = -0.01  Score = 114.09  P-value = 0.83677  Identities =  7.5%  SS-score = -4.98
+>Seg 34  407-461   Z-score =  0.11  Score = 119.15  P-value = 0.78760  Identities = 10.0%  SS-score =  5.28
+>Seg 35  417-471   Z-score =  0.02  Score = 115.57  P-value = 0.82299  Identities =  5.0%  SS-score = -17.82
+>Seg 36  431-482   Z-score =  0.32  Score = 128.03  P-value = 0.69152  Identities = 10.0%  SS-score = -1.67
+>Seg 37  442-495   Z-score = -0.32  Score = 101.40  P-value = 0.93199  Identities =  5.0%  SS-score = -13.83
+>Seg 38  452-507   Z-score = -0.52  Score =  93.38  P-value = 0.96820  Identities =  2.5%  SS-score = -23.00
+>Seg 39  465-520   Z-score = -0.10  Score = 110.73  P-value = 0.86626  Identities = 20.0%  SS-score = -6.61
+>Seg 40  478-532   Z-score = -0.12  Score = 109.50  P-value = 0.87636  Identities = 10.0%  SS-score = -7.55
+>Seg 41  489-543   Z-score =  0.08  Score = 117.76  P-value = 0.80157  Identities =  5.0%  SS-score = -10.95
+>Seg 42  502-555   Z-score = -0.14  Score = 108.90  P-value = 0.88116  Identities =  7.5%  SS-score = -16.92
+>Seg 43  514-568   Z-score = -0.31  Score = 101.86  P-value = 0.92937  Identities =  5.0%  SS-score = -16.41
+>Seg 44  527-579   Z-score =  0.16  Score = 121.26  P-value = 0.76565  Identities = 10.0%  SS-score =  1.13
+>Seg 45  537-592   Z-score = -0.05  Score = 112.49  P-value = 0.85117  Identities =  7.5%  SS-score = -18.34
+>Seg 46  551-605   Z-score =  0.14  Score = 120.51  P-value = 0.77354  Identities = 10.0%  SS-score = -4.62
+>Seg 47  562-615   Z-score = -0.53  Score =  92.64  P-value = 0.97064  Identities =  0.0%  SS-score = -17.03
+>Seg 48  574-626   Z-score = -0.07  Score = 111.60  P-value = 0.85893  Identities =  7.5%  SS-score = -18.70
+>Seg 49  586-641   Z-score = -0.34  Score = 100.67  P-value = 0.93607  Identities =  5.0%  SS-score = -21.01
+>Seg 50  596-651   Z-score = -0.46  Score =  95.53  P-value = 0.96028  Identities =  2.5%  SS-score = -29.92
+>Seg 51  610-661   Z-score = -0.03  Score = 113.33  P-value = 0.84375  Identities = 10.0%  SS-score = -6.03
+>Seg 52  622-677   Z-score = -0.06  Score = 112.15  P-value = 0.85414  Identities = 10.0%  SS-score = -5.37
+>Seg 53  632-687   Z-score = -0.48  Score =  94.91  P-value = 0.96268  Identities =  2.5%  SS-score = -15.98
+>Seg 54  646-697   Z-score = -0.21  Score = 105.99  P-value = 0.90282  Identities =  7.5%  SS-score = -6.57
+>Seg 55  658-713   Z-score =  0.01  Score = 115.17  P-value = 0.82672  Identities = 10.0%  SS-score = -11.31
+>Seg 56  669-723   Z-score = -0.30  Score = 102.42  P-value = 0.92606  Identities =  2.5%  SS-score = -22.16
+>Seg 57  682-732   Z-score = -0.10  Score = 110.34  P-value = 0.86956  Identities = 10.0%  SS-score = -5.99
+>Seg 58  694-749   Z-score = -0.07  Score = 111.69  P-value = 0.85819  Identities = 10.0%  SS-score = -7.48
+>Seg 59  705-759   Z-score = -0.26  Score = 103.91  P-value = 0.91682  Identities =  2.5%  SS-score = -14.83
+>Seg 60  717-768   Z-score = -0.04  Score = 112.97  P-value = 0.84699  Identities =  7.5%  SS-score = -8.07
+>Seg 61  730-785   Z-score = -0.03  Score = 113.31  P-value = 0.84391  Identities = 10.0%  SS-score = -2.16
+>Seg 62  740-795   Z-score = -0.55  Score =  91.79  P-value = 0.97328  Identities =  5.0%  SS-score = -19.95
+>Seg 63  754-804   Z-score = -0.35  Score = 100.05  P-value = 0.93939  Identities =  5.0%  SS-score = -6.90
+>Seg 64  767-819   Z-score =  0.09  Score = 118.54  P-value = 0.79375  Identities = 10.0%  SS-score =  7.36
+>Seg 65  776-831   Z-score = -0.62  Score =  89.19  P-value = 0.98031  Identities =  2.5%  SS-score = -23.08
+>Seg 66  789-840   Z-score = -0.35  Score = 100.27  P-value = 0.93821  Identities = 17.5%  SS-score = -5.08
+>Seg 67  802-857   Z-score = -0.18  Score = 107.43  P-value = 0.89241  Identities =  5.0%  SS-score =  0.28
+>Seg 68  813-867   Z-score = -0.31  Score = 101.98  P-value = 0.92863  Identities =  2.5%  SS-score = -15.39
+>Seg 69  826-875   Z-score = -0.33  Score = 101.08  P-value = 0.93380  Identities =  5.0%  SS-score = -5.39
+>Seg 70  839-891   Z-score =  0.07  Score = 117.48  P-value = 0.80442  Identities = 10.0%  SS-score =  9.78
+>Seg 71  848-903   Z-score = -0.59  Score =  90.19  P-value = 0.97778  Identities = 17.5%  SS-score = -6.29
+>Seg 72  862-908   Z-score = -0.23  Score = 105.31  P-value = 0.90757  Identities =  7.5%  SS-score = -1.25
+>Seg 73  875-929   Z-score =  0.04  Score = 116.41  P-value = 0.81488  Identities = 10.0%  SS-score = 21.93
+>Seg 74  884-939   Z-score = -0.40  Score =  98.19  P-value = 0.94870  Identities =  7.5%  SS-score = -11.62
+>Seg 75  897-949   Z-score =  0.40  Score = 131.38  P-value = 0.65347  Identities = 10.0%  SS-score = -3.62
+>Seg 76  909-965   Z-score =  0.36  Score = 129.62  P-value = 0.67351  Identities = 15.0%  SS-score = -15.91
+>Seg 77  921-974   Z-score = -0.56  Score =  91.72  P-value = 0.97349  Identities =  0.0%  SS-score = -12.71
+>Seg 78  934-982   Z-score = -0.08  Score = 111.16  P-value = 0.86266  Identities = 12.5%  SS-score = -5.48
+>Seg 79  944-994   Z-score = -0.20  Score = 106.32  P-value = 0.90050  Identities =  7.5%  SS-score = -18.54
+>Seg 80  956-1011  Z-score = -0.33  Score = 101.22  P-value = 0.93302  Identities =  2.5%  SS-score = -14.61
+>Seg 81  970-1025  Z-score =  0.18  Score = 121.98  P-value = 0.75806  Identities = 10.0%  SS-score = 20.04
+>Seg 82  979-1056  Z-score = -0.41  Score =  97.83  P-value = 0.95039  Identities = 15.0%  SS-score = 13.41
+>Seg 83  988-1088  Z-score = -0.06  Score = 112.07  P-value = 0.85487  Identities =  7.5%  SS-score =  8.75
+>Seg 84 1000-1108  Z-score = -0.27  Score = 103.61  P-value = 0.91874  Identities =  7.5%  SS-score = 17.25
+>Seg 85 1018-1119  Z-score = -0.30  Score = 102.45  P-value = 0.92585  Identities =  5.0%  SS-score = -3.28
+>Seg 86 1029-1140  Z-score =  0.24  Score = 124.56  P-value = 0.73015  Identities = 10.0%  SS-score =  3.03
+>Seg 87 1061-1153  Z-score = -0.16  Score = 108.21  P-value = 0.88649  Identities = 17.5%  SS-score =  4.06
+>Seg 88 1104-1164  Z-score =  0.02  Score = 115.53  P-value = 0.82335  Identities = 15.0%  SS-score =  7.93
+>Seg 89 1115-1181  Z-score = -0.76  Score =  83.25  P-value = 0.99110  Identities =  2.5%  SS-score = 18.87
+>Seg 90 1126-1193  Z-score =  0.67  Score = 142.17  P-value = 0.53145  Identities = 10.0%  SS-score = 19.18
+>Seg 91 1147-1207  Z-score =  1.74  Score = 186.69  P-value = 0.17327  Identities = 20.0%  SS-score = 12.03
+>Seg 92 1162-1220  Z-score =  0.55  Score = 137.20  P-value = 0.58716  Identities = 20.0%  SS-score = 32.21
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MAVSRLLILICLYSFVTFAYPKVTQDYRNHLPIKFAKRSEVTPNTSLAQCPKYVTVYSSGSSHYISTIYPVNKTHHTEYT 80  
+Query SS       CCCHHEHHEEEEEEEEECCCCEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEECCCCCCEEEECCCCCCCEEEEE
+WD40-rpts                                                                                      
+
+Query       81 TLTDGSIDTYTITAKTDTGTDVVVVETSANTITTTLYSGSLEFTTTLDSANGTTPATIEVVEPAAGTVTTTIYSGTTPFN 160 
+Query SS       EECCCCCEEEEEECCCCCCEEEEEEECCCCCEEEEEECCCEEEEEECCCCCCCCCCCEEEECCCCCCEEEEEECCCCCCE
+WD40-rpts                                                                                      
+
+Query      161 TTLASATDTVPGTVEVVEPEAGTVTTTVYSGTQEYTTTLATASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATD 240 
+Query SS       EEECCCCCCCCCCEEEECCCCCCEEEEEEECCEEEEEEEECCCCCCCCCEEEECCCCCCEEEEEECCCCCCEEECCCCCC
+WD40-rpts                                                                                      
+
+Query      241 TVPGTVEVVEPEAGTVTTTVYSGTQEYTTTLATASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATDTVPGTVEV 320 
+Query SS       CCCCEEEEECCCCCCEEEEEECCCEEEEEEEEECCCCCCEEEEEECCCCCCEEEEEECCCCCCCEEECCCCCCCCCCEEE
+WD40-rpts                                                                                      
+
+Query      321 VEPEAGTVTTTVYSGTQEYTTTLATASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATDTVPGTVEVVEPEAGTV 400 
+Query SS       ECCCCCCEEEEEEECCCCCEEEEECCCCCCCCCEEEEECCCCCEEEEEECCCCCCEEEEEECCCCCCCCEEEECCCCCCE
+WD40-rpts                                                                                      
+
+Query      401 TTTVYSGTQEYTTTLATASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATDTVPGTVEVVEPEAGTVTTTVYSGT 480 
+Query SS       EEEEEECCCCEEEEEECCCCCCCCEEEEEECCCCEEEEEEECCCCCCEEEECCCCCCCCCCEEECCCCCCCEEEEEECCC
+WD40-rpts                                                                                      
+
+Query      481 QEYTTTLATASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATDTVPGTVEVVEPEAGTVTTTVYSGTQEYTTTLA 560 
+Query SS       CCEEEEEECCCCCCCEEEEEECCCCCCEEEEEECCCCCCCEEEEEECCCCCCEEEECCCCCCCEEEEEEECCCCCEEEEE
+WD40-rpts                                                                                      
+
+Query      561 TASGTVSGTVEVVDTAAGTVTTTIYSGTTPFNTTLASATDTVPGTVEVVEPEAGTVTTTVYSGTQEYTTTLATASGTVSG 640 
+Query SS       ECCCCCCCEEEEECCCCCCEEEEEECCCCCCCEEECCCCCCCCCCEEEECCCCCCEEEEEECCCCCEEEEECCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      641 TVEVIEPAAGTVTTTVYSGTQEYTTTLATASGTVSGTVEVIEPAAGTVTSTVYSGTQEYTTTLATASGTVSGTVEVIEPA 720 
+Query SS       CEEEECCCCCCEEEEEECCCCEEEEEEECCCCCCCCCEEEECCCCCCEEEEEECCCCEEEEEEECCCCCCCCCEEECCCC
+WD40-rpts                                                                                      
+
+Query      721 AGTVTTTVYSGTQEYTTTLATASGTVSGTVEVIEPAAGTVTTTVYSGSEVYTTTLASASESVPGTVEVVDPEAGSVTTTI 800 
+Query SS       CCCEEEEEECCCEEEEEEECCCCCCCCCCEEEECCCCCCEEEEEEECCEEEEEEECCCCCCCCCCEEECCCCCCCEEEEE
+WD40-rpts                                                                                      
+
+Query      801 YSGSVEYTTVLADASGSVTGTVEVVEPAAGTVTTTVYSGSEVYTTTLASASESVPGTVEVVDPEAGSVTTTIYSGSVEYT 880 
+Query SS       ECCCEEEEEEEECCCCCCCEEEEEECCCCCCEEEEEEECCEEEEEEECCCCCCCCCCEEEECCCCCCEEEEEEECEEEEE
+WD40-rpts                                                                                      
+
+Query      881 TVLADASGSVTGTVEVVEPAAGTVTGTLTSGSQFFTTTIAQASGSVSGNVEVIEPSGSTVTSTIYSGSESFTTTLAVGSG 960 
+Query SS       EEECCCCCCCCEEEEECCCCCCCEEEECEECCEEEEEEEECCCCCCCCCEEEECCCCCCEEEECCCCCCEEEEEECCCCC
+WD40-rpts                                                                                      
+
+Query      961 TIPGTVEVILPAPTTIYTGTVATTITYSSSSTPVSTVVVIPTAVCSGVRGLQYAVYNYDISASKSKFCVSSGNTDVAAFT 1040
+Query SS       CCCCCEEEECCCCCEEEECCCCEEEEECCCCCCCEEEEECCCCCCCCCCCCEEEEEECCCCCCCCEEECCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query     1041 QPAYFGSSSLDQSSPLFTGVLSSTAALPEWTSSYYLPDYPPDATAMESTRCNCKAIVYQFFFRVPYTDTYELNVYNVDDV 1120
+Query SS       CCCCCCCCCCCCCCCCEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEECCCCCEEEEEECCCCCE
+WD40-rpts                                                                                      
+
+Query     1121 FYGWFGDKAISGWSNTNYDAYAYWHVTTGQTGMGSFSMGTLTQGSFLPIRLIVANGGGKGGFNFDFSSSTDTYAATSYAY 1200
+Query SS       EEEEECCCCCCCCCCCCCCCEEEEEECCCCCCCEEEEEEEECCCEEEEEEEEEECCCCCCCEEEEEECCCCCCEEEEEEE
+WD40-rpts                                                                                      
+
+Query     1201 TATCTQSFLPFGLGNGGIDN 1220
+Query SS       ECCCCCCEEECCCCCCCCCC
+WD40-rpts                          
+
+
+No WD40-repeats found in QUERY=sp_Q9C0Y2_YKL1_SCHPO (Len=1220)!

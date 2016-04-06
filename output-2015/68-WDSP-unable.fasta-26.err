@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q16K67|MED16_AEDAE Mediator of RNA polymerase II transcription subunit 16 OS=Aedes aegypti GN=MED16 PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

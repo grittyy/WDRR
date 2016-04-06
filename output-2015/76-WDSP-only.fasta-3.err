@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|B0M0P5|DDB1_DICDI DNA damage-binding protein 1 OS=Dictyostelium discoideum GN=repE PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

@@ -1,0 +1,63 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186464945_gb_ACC80746.1_ (Len=440)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-48    Z-score = -0.92  Score =  76.82  P-value = 0.99687  Identities =  7.5%  SS-score = 14.31
+>Seg  2   17-71    Z-score =  1.16  Score = 162.42  P-value = 0.33255  Identities = 17.5%  SS-score =  1.31
+>Seg  3   25-103   Z-score =  1.46  Score = 174.85  P-value = 0.24029  Identities = 17.5%  SS-score = 14.83
+>Seg  4   35-181   Z-score =  2.48  Score = 216.96  P-value = 0.07164  Identities = 25.0%  SS-score =  9.12
+>Seg  5   58-206   Z-score =  0.15  Score = 120.89  P-value = 0.76956  Identities = 10.0%  SS-score = -18.32
+>Seg  6   87-222   Z-score =  0.84  Score = 149.18  P-value = 0.45659  Identities = 17.5%  SS-score =  5.91
+>Seg  7  163-244   Z-score =  2.90  Score = 234.58  P-value = 0.04210  Identities = 20.0%  SS-score = 20.69
+>Seg  8  195-316   Z-score =  1.30  Score = 168.17  P-value = 0.28695  Identities = 27.5%  SS-score = 19.52
+>Seg  9  213-342   Z-score =  0.75  Score = 145.67  P-value = 0.49339  Identities = 12.5%  SS-score =  5.74
+>Seg 10  222-376   Z-score =  1.12  Score = 160.84  P-value = 0.34598  Identities = 12.5%  SS-score = 15.96
+>Seg 11  299-387   Z-score = -0.07  Score = 111.62  P-value = 0.85880  Identities = 10.0%  SS-score = -6.27
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MRIEPIIKVSKINHYYGTGQLRKQILFDISTEIQAGEIVIVTGPSGSGKTTLLNLIGALSSVQEGSLTVLGQELNRANNK 80  
+Query SS       CCCCCEEEEEEEEEEECCCCEEEECCCCCEEEEECCEEEEEECCCCCCHHHHHHHHHCCCCCCCCEEEECCEECCCCCHH
+WD40-rpts                                                                                      
+
+Query       81 LLENVRKNIGFIFQAHNLLTSLTASQNVQMSLALHGGISKREAERKAQAILEMVGLGERVNYYPNQMSGGQKQRVAIARA 160 
+Query SS       HHHHHHCCCCEEECCCCCCCCCCHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHCCCCCCCCCCCCCCCHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      161 LVTNPSVILADEPTAALDKKSGRDVVEMLQYLAKQQGCAILLVTHDNRILDVADRIISLEDGFLTSSKNTSSNNSHRLAS 240 
+Query SS       HHCCCCEEEECCCCCCCCCCCHHHHHHHHHHHHHCCCCEEEEECCCHHHHHHCCCEEEEECCEEEECCCCCCCCCCCCCC
+WD40-rpts        (___________________________WD 1__________________________)                   
+
+Query      241 LKGELINHVEDLSLKDFLSLLQQVTGEFQSFLSLIDNEATGKCLEEIIEAITLKITHLLQAERSTIFIVDDTSGNLWSEI 320 
+Query SS       CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHEECCCCEEEEECCCCCCCHHHH
+WD40-rpts                                                                                      
+
+Query      321 IQSNRKKILKVGITAHFGVAAHVAATRECLNIPIALQDYRYSPAIDEQTGYQTRNILCLPILNSQSKVLAISQVLNKIGN 400 
+Query SS       HHHCCCCCEEEECCCCCCCCCCHHCCCCCCCHHHHHHHCCCCCCCCCCCCCEEECCEEECCCCCCCCEEHHHHHHHHHCC
+WD40-rpts                                                                                      
+
+Query      401 NCFDRKDEQLLGEFSQQISAIFDMWCHLQKLHKTSISGKY 440 
+Query SS       CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCC
+WD40-rpts                                              
+
+
+1 WD40-repeats found in QUERY=gi_186464945_gb_ACC80746.1_ (Len=440):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  7   163-221      2.90  234.58  0.04210       20.0%     20.69
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1  163-221    TNPSVILADEPTAALDKKSGRDVVEMLQYLAKQQGCAILLVTHDNRILDVADRIISLED
+
+   WD40 Template    TGECLRTLSGHTSGVTSVS-------------FSPDGKRLVSGS------EDGTIKVWD
+        Tmplt-SS    CCEEEEEECCCCCCEEEEE-------------ECCCCCEEEEEE------CCCCEEEEE
+
+   SS 1  163-221    CCCCEEEECCCCCCCCCCCHHHHHHHHHHHHHCCCCEEEEECCCHHHHHHCCCEEEEEC

@@ -1,0 +1,3 @@
+cd tmp/KBUL51329890255
+perl ../../bin/wdrr.pl -i seq.fasta  -cpu 3 -h 1 -o KBUL51329890255.wdr -html KBUL51329890255.html 2>seq.err >seq.info &
+cd ../../

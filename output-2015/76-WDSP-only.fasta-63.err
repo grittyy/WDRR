@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9CAG8|FBK28_ARATH F-box/kelch-repeat protein At1g67480 OS=Arabidopsis thaliana GN=At1g67480 PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

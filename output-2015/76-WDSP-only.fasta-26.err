@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q15165|PON2_HUMAN Serum paraoxonase/arylesterase 2 OS=Homo sapiens GN=PON2 PE=1 SV=3: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

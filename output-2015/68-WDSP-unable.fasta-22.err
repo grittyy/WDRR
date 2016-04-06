@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q09417|RIC1_CAEEL Guanine nucleotide exchange factor subunit R06F6.8 OS=Caenorhabditis elegans GN=R06F6.8 PE=3 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

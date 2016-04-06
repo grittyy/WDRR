@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9DC22|DCAF6_MOUSE DDB1- and CUL4-associated factor 6 OS=Mus musculus GN=Dcaf6 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

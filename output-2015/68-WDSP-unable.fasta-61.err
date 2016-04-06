@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9CM71|TOLB_PASMU Protein TolB OS=Pasteurella multocida (strain Pm70) GN=tolB PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

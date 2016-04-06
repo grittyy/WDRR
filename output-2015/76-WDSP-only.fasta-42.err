@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q68FP2|PON3_RAT Serum paraoxonase/lactonase 3 OS=Rattus norvegicus GN=Pon3 PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

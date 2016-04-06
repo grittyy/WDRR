@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q6JEL2|KLH10_HUMAN Kelch-like protein 10 OS=Homo sapiens GN=KLHL10 PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

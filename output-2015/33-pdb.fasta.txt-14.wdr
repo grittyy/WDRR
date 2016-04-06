@@ -1,0 +1,30 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = 1NEX_C_PDBID_CHAIN_SEQUENCE (Len=169)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-169   Z-score =  0.20  Score = 123.10  P-value = 0.74597  Identities = 10.0%  SS-score = -15.88
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 GAHMVTSNVVLVSGEGERFTVDKKIAERSLLLKNYLNDMGDDDDEDDDEIVMPVPNVRSSVLQKVIEWAEHHRDSNFPDE 80  
+Query SS       CCCCCCCCEEEEECCCCEEEECHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHCCCCCCC
+WD40-rpts                                                                                      
+
+Query       81 DDDDSRKSAPVDSWDREFLKVDQEMLYEIILAANYLNIKPLLDAGCKVVAEMIRGRSPEEIRRTFNIVNDFTPEEEAAIR 160 
+Query SS       CCCCCCCCCCCCHHHHHHHCCCHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHCCCHHHHHHHHCCCCCCCHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      161 RENEWAEDR 169 
+Query SS       HHHCCCCCC
+WD40-rpts               
+
+
+No WD40-repeats found in QUERY=1NEX_C_PDBID_CHAIN_SEQUENCE (Len=169)!

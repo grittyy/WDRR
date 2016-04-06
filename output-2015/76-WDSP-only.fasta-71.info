@@ -1,0 +1,97 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2016 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Tue Dec 29 01:01:52 2015)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Cmd = /home/cwang/wdrr/bin/wdrr-2015.pl -i /home/cwang/wdrr/output-2015/76-WDSP-only.fasta-71.fasta -cpu 3 -d /home/cwang/wdrr/blastdb/nr90 -h 1 -o /home/cwang/wdrr/output-2015/76-WDSP-only.fasta-71.wdr
+  Query = sp_Q9P6N4_PEP5_SCHPO (Len=906)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/cwang/wdrr/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+  Doing PSI-BLAST against /home/cwang/wdrr/blastdb/nr90 for QUERY=sp_Q9P6N4_PEP5_SCHPO (Len=906)...
+  Predicting PSIPRED secondary structure types...
+  Calculating profile for QUERY=sp_Q9P6N4_PEP5_SCHPO (Len=906)...
+  Aligning segments...
+
+>Seg  1    1-67    Z-score =  0.84  Score = 149.44  P-value = 0.45383  Identities = 17.5%  SS-score = 28.57
+>Seg  2   13-78    Z-score =  1.34  Score = 170.09  P-value = 0.27285  Identities = 15.0%  SS-score = 30.73
+>Seg  3   42-92    Z-score =  0.19  Score = 122.53  P-value = 0.75218  Identities =  5.0%  SS-score = 44.17
+>Seg  4   50-109   Z-score = -0.25  Score = 104.38  P-value = 0.91377  Identities = 10.0%  SS-score = 25.06
+>Seg  5   62-126   Z-score = -0.27  Score = 103.52  P-value = 0.91928  Identities = 12.5%  SS-score = -4.94
+>Seg  6   74-137   Z-score = -0.34  Score = 100.79  P-value = 0.93540  Identities = 10.0%  SS-score =  6.05
+>Seg  7   83-147   Z-score = -0.64  Score =  88.36  P-value = 0.98221  Identities =  2.5%  SS-score = -17.14
+>Seg  8   99-163   Z-score =  1.11  Score = 160.57  P-value = 0.34829  Identities = 17.5%  SS-score = 38.89
+>Seg  9  118-172   Z-score =  1.44  Score = 174.14  P-value = 0.24491  Identities = 17.5%  SS-score = 39.57
+>Seg 10  133-183   Z-score = -0.38  Score =  98.88  P-value = 0.94537  Identities =  7.5%  SS-score = 12.34
+>Seg 11  144-192   Z-score = -0.53  Score =  92.87  P-value = 0.96991  Identities = 12.5%  SS-score = 16.10
+>Seg 12  153-231   Z-score = -0.03  Score = 113.43  P-value = 0.84279  Identities =  7.5%  SS-score = 49.44
+>Seg 13  167-240   Z-score = -0.63  Score =  88.49  P-value = 0.98194  Identities =  5.0%  SS-score = 43.56
+>Seg 14  180-260   Z-score =  0.40  Score = 131.11  P-value = 0.65656  Identities = 10.0%  SS-score = 12.74
+>Seg 15  190-267   Z-score =  0.38  Score = 130.29  P-value = 0.66589  Identities = 10.0%  SS-score = -1.25
+>Seg 16  199-310   Z-score = -0.39  Score =  98.67  P-value = 0.94639  Identities = 10.0%  SS-score =  1.95
+>Seg 17  237-320   Z-score = -0.20  Score = 106.55  P-value = 0.89884  Identities = 10.0%  SS-score = 10.96
+>Seg 18  246-330   Z-score = -0.97  Score =  74.50  P-value = 0.99796  Identities =  0.0%  SS-score =  5.89
+>Seg 19  266-350   Z-score = -0.40  Score =  98.16  P-value = 0.94885  Identities =  7.5%  SS-score = -1.94
+>Seg 20  274-358   Z-score = -0.50  Score =  94.08  P-value = 0.96577  Identities = 15.0%  SS-score = -6.02
+>Seg 21  317-881   Z-score =  0.84  Score = 149.49  P-value = 0.45331  Identities = 25.0%  SS-score = 20.79
+>Seg 22  336-906   Z-score = -0.28  Score = 103.14  P-value = 0.92168  Identities =  7.5%  SS-score =  2.03
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MSTFIKNWKRITLFQVKAIEENIDRLTSSFSSNGELVVFATAFGDVSIYNSSFKSLQSIKVEDESSIQQILWLDNKTFLL 80  
+Query SS       CCCCCCCCCEEECCCCCCCCCCCCCCCCCCCCCCCEEEEEECCCEEEEECCCCCCEEEEEECCCCCCEEEEEECCCCCEE
+WD40-rpts                                                                                      
+
+Query       81 FSNVEGGTGTNSTVIIYAFSQADENEPPQFVLVTTHKFSINESPYPIIAVSQSPIDKTIACGFGGGLVSCYHGNPLRERG 160 
+Query SS       EECCCCCCCCCCEEEEEECCCCCCCCCCCEEEEEEEECCCCCCCCCEEEEEECCCCCEEEEEECCCCEEEEECCCCCCCC
+WD40-rpts                                                                                      
+
+Query      161 IKNSYSHNLGEPITGLTYLDDQSSVLFIATTNKTYSLSGKSLSCLDNTGVSLNCSSSCKTTPLQSREKNSSSFVCTRSSG 240 
+Query SS       CCCEEECCCCCCEEEEEEECCCCEEEEEECCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEECCCC
+WD40-rpts                                                                                      
+
+Query      241 LTFYDSKREKICFTFPGEKHYMTVMGSILALCYTPTLGTDSSTNEGLKKSFSSSSSIRKADASRNPAFPPRLLLVDLSRN 320 
+Query SS       EEEEECCCCCCCCCCCCCCCEEEEECCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEECCCC
+WD40-rpts                                                                                      
+
+Query      321 LIVWEGHLKDVAVSILPLKHGFLVVTADDNVFELKRITLQEEISLLCQKMMYNLAISLAKKENMDIEFRESLMRDYASFL 400 
+Query SS       EEEECCCCCCHHHHHCCCCCCEEEEECCCCEEEEEECCHHHHHHHHHHHCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHH
+WD40-rpts                                                                                      
+
+Query      401 FRRGDFSASMDWYIRSIKSIDIPSVCLEFLKAQEIKQLIRLLEELIKTGLATSDHRLLLLSCYVEIHDSPSIRKLIDIGE 480 
+Query SS       HHCCCHHHHHHHHHHHCCCCCHHHHHHHHHCCHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHCCCHHHHHHHHCCC
+WD40-rpts                                                                                      
+
+Query      481 IDFDQAFKICYDSNLLDEAKHLAIRFNNNERVLDVLVESEQYSEALRFFESLPPSNLLPLLLKYGRVLLDKLPEKTTNIF 560 
+Query SS       CCHHHHHHHHHHCCCHHHHHHHHHHHCCHHHHHHHHHHHHCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHCCCHHHHHHH
+WD40-rpts                                                                                      
+
+Query      561 IQFYSNSHRGDLSTSESKGELKTAKSLRQTYLSLLPYAQVANFSLPPSLYEISPSQEENQRAALFSEDVSYTAPSPQTCF 640 
+Query SS       HHHHCCCCCCCCCCCCCCHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHCCCCCCCCCCCCCCHH
+WD40-rpts                                                                                      
+
+Query      641 HIFLNHNSELISFLEGILPNASPNYKTLINTCLFEAYIRESFASSNVEKQEFWQEKSNSLLKKVEKNVDLNAVFLISQIL 720 
+Query SS       HHCCCCHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHC
+WD40-rpts                                                                                      
+
+Query      721 GFDDGVRFVQGKSGQTLDIFRSFCQQNDIERALKMVRVHGPDQQELYIMMLNCFASLENVDSWYQDINEIVNIIVSQRLI 800 
+Query SS       CCCHHHHHHHHHCCCHHHHHHHHHCCCCHHHHHHHHHHCCCCCHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHCCCC
+WD40-rpts                                                                                      
+
+Query      801 SPTQLLDILGKSVNIKLEHISDSMQSVLDNYRESISKQNEAIEMGKRDIEEITSQLSILRTRAFVVQESKCSTCGIDLEL 880 
+Query SS       CHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCEEEECCCCCCCCCCCCC
+WD40-rpts                                                                                      
+
+Query      881 PMVHFRCGHSYHQRCVEDECIRCRWL 906 
+Query SS       CEEEEECCCCCCCCCCCCCCCCCCCC
+WD40-rpts                                
+
+
+No WD40-repeats found in QUERY=sp_Q9P6N4_PEP5_SCHPO (Len=906)!
+
+  ==========
+  84.000 seconds.
+

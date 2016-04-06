@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q08470|L2GL_DROPS Protein lethal(2) giant larvae OS=Drosophila pseudoobscura pseudoobscura GN=l(2)gl PE=1 SV=3: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9V3C5|RIC1_DROME Guanine nucleotide exchange factor subunit Rich OS=Drosophila melanogaster GN=Rich PE=1 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

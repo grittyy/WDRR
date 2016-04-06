@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q5F3N5|KLH14_CHICK Kelch-like protein 14 OS=Gallus gallus GN=KLHL14 PE=2 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

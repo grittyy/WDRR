@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q9W278|MED16_DROME Mediator of RNA polymerase II transcription subunit 16 OS=Drosophila melanogaster GN=MED16 PE=1 SV=2: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

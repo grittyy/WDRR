@@ -1,0 +1,1 @@
+Warning: lcl|Query_1 sp|Q8K9N9|6PGL_BUCAP 6-phosphogluconolactonase OS=Buchnera aphidicola subsp. Schizaphis graminum (strain Sg) GN=pgl PE=3 SV=1: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 

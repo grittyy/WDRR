@@ -1,0 +1,41 @@
+
+  ============================================================================
+          WDRR - a tool for Recognizing WD40-repeat proteins
+            (c) 2010-2012 Zhang's Lab of Protein Bioinformatics @ CAU
+  ============================================================================
+  v1.0 (Last modified on Thu Feb 23 07:50:39 2012)
+  Author: Chuan WANG(grittyy@cau.edu.cn)
+
+  Query = gi_186469643_gb_ACC85440.1_ (Len=223)
+  Tmplt = WD40-str (Len=40)
+  Method = bdp  Gap-open = 50  Gap-extend = 3
+  Database = /home/pub/blastdb/nr90  E-value = 0.001  Iteration = 3
+
+>Seg  1    1-223   Z-score =  3.13  Score = 243.97  P-value = 0.03163  Identities = 27.5%  SS-score = -13.41
+                       10        20        30        40        50        60        70        80
+               ....*....|....*....|....*....|....*....|....*....|....*....|....*....|....*....|
+Query        1 MARNYGAAKLKNHIHNNAPGTLGAMGRLFDVSESDFNKALLGDQTVITKIADMARLSDTAKANLPKALEVYRKIIETTGD 80  
+Query SS       CCCCHHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHHHHHCCCHHHHHHHHHHHHCCHHHHHCCHHHHHHHHHHHHHHCC
+WD40-rpts      (_______________________________________________________________________________
+
+Query       81 INQAYAELVQLTQKHGTQTLKAINTSKTGEQRFKNEMTEMQAEHVNATTAEATRHAQRSSLIQISGATADLMAIAKYEAD 160 
+Query SS       HHHHHHHHHHHHHHHCCCHHHHHCCCCCHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHH
+WD40-rpts      ___________________WD 1_________________________________________________________
+
+Query      161 LIKASNKVPEAQDAADRAYETAVTSALWTNGSEAKTDRIPKPNYSRTAGISRVGQWFRNFMGI 223 
+Query SS       HHHHHCCCCHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHCC
+WD40-rpts      ________________________________________)                      
+
+
+1 WD40-repeats found in QUERY=gi_186469643_gb_ACC85440.1_ (Len=223):
+  Rpts  Segment   Boundary  Z-score   Score  P-value  Identities  SS-score
+  WD 1:  Seg  1     1-201      3.13  243.97  0.03163       27.5%     -13.41
+
+Multiple sequence alignment of 1 WD40-repeats:
+
+   WD 1    1-201    MARNYGAAKLKNHIHNNAPGTLGAMGRLFDVSESDFNKALLGDQTVITKIADMARLSDTAKANLPKALEVYRKIIETTGDINQAYAELVQLTQKHGTQTLKAINTSKTGEQRFKNEMTEMQAEHVNATTAEATRHAQRSSLIQISGATADLMAIAKYEADLIKASNKVPEAQDAADRAYETAVTSALWTNGSEAKTDRIPK
+
+   WD40 Template    TGEC--------------LRTLS--GHTSGVT----------S------------VS-----FS--------------PD---------------GKR---------L------------------VS--------------------------------------------------------------GSEDGTIKVWD
+        Tmplt-SS    CCEE--------------EEEEC--CCCCCEE----------E------------EE-----EC--------------CC---------------CCE---------E------------------EE--------------------------------------------------------------EECCCCEEEEE
+
+   SS 1    1-201    CCCCHHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHHHHHCCCHHHHHHHHHHHHCCHHHHHCCHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHCCCHHHHHCCCCCHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCC
