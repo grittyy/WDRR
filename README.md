@@ -8,7 +8,7 @@ This repo hosts the source codes for the WDRR web server and local version. The 
 ### Requirements
 - WDRR was written in Perl and the web server was written in PHP. No SQL database needed.
 - WDRR was tested under CentOS 6 64-bit. It should also work under most Linux/Unix systems.
-- WDRR needs nr90 BLAST database to run properly. Download nr90 [here](https://www.dropbox.com/s/rmfrqsz7su3m8ry/blastdb.zip?dl=0) and put all "nr90*" files into the blastdb folder.
+- WDRR needs nr90 BLAST database to run properly. Download nr90 [here (Dropbox)](https://www.dropbox.com/s/rmfrqsz7su3m8ry/blastdb.zip?dl=0) or [here (baiduyun)](http://pan.baidu.com/s/1pLFyLa7) and put all "nr90*" files into the blastdb folder.
 
 ### To set up the web server
 Put the wdrr folder into your PHP root directory and it should be accessible. (You probably need to change the path to the blastdb/nr90 within bin/wdrr.pl)
