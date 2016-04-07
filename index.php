@@ -135,9 +135,12 @@ include('header.php');
           <td align="center" valign="middle"><table width="800" border="0" cellspacing="0" cellpadding="5">
               <tr>
                 <td align="left"><strong><em>For using WDRR, Please cite:</em></strong><br />
-            Wang C, Dong X, Han L, Su XD, Zhang Z, Li J and Song J. (2015) <strong>WDRR: Identification of WD40 repeats by secondary structure aided profile-profile alignment</strong>, <em>submitted for publication. http://protein.cau.edu.cn/wdrr/</em>.
+            <a href="http://dx.doi.org/10.1016/j.jtbi.2016.03.025">Wang C, Dong X, Han L, Su XD, Zhang Z, Li J and Song J (2016). "Identification of WD40 repeats by secondary structure-aided profile–profile alignment." <em>Journal of Theoretical Biology.</em></a>
                 </td>
              </tr>
+              <tr>
+                <td align="left"><strong>WDRR source code is available on <a href="https://github.com/grittyy/WDRR">GitHub</a>.</strong></td>
+              </tr>
             </table>
           </td>
         </tr>

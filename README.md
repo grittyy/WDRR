@@ -2,7 +2,7 @@
 WD40 Repeat Recognition (WDRR): Identification of WD40 repeats by secondary structure-aided profile-profile alignment
 
 ## Intro
-This repo hosts the source codes for the WDRR web server and local version. The results for sequences from the WDSP paper are included in this repo. For more information, refer to the original publication: [Identification of WD40 repeats by secondary structure-aided profile–profile alignment](http://www.sciencedirect.com/science/article/pii/S0022519316001661)
+This repo hosts the source codes for the WDRR web server and local version. The results for sequences from the WDSP paper are included in this repo. For more information, refer to the original publication: [Identification of WD40 repeats by secondary structure-aided profile–profile alignment](http://dx.doi.org/10.1016/j.jtbi.2016.03.025)
 
 ## Get started
 ### Requirements
